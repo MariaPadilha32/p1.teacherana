@@ -55,6 +55,8 @@ body {
     height: 750px;
 }
 
+/*When I hover the padding is affecting the border of the photo, how to dix it?*/
+
 h3:hover {
     transform: scale(1.2);
 }
@@ -163,6 +165,10 @@ hr {
 /*footer*/
 footer {
     height: 100px;
+}
+
+h4 {
+    padding: 30px;
 }
 
 .social-media {
