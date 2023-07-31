@@ -20,8 +20,8 @@ body {
     color: #a22d59;
     background-color: #fffaeb;
     width: 100%;
-    height: 110 px;
-    padding: 0px 30px;
+    height: 110px;
+    padding: 30px 30px;
 }
 
 #logo {
@@ -162,7 +162,45 @@ hr {
     line-height: 1.6;
 }
 
-/*footer*/
+/*About me*/
+
+#about {
+    height: 1200px;
+}
+
+#who {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: right;
+    padding: 75px;
+
+}
+
+#why {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 75px;
+}
+
+
+#how {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: right;
+    padding: 75px;
+}
+
+/*footer- urgent must amend footer*/
 footer {
     height: 100px;
 }
@@ -183,4 +221,20 @@ h4 {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
+}
+
+h2 {
+    padding: 30px 10px;
+}
+
+/*Offer*/
+
+#offer {
+    padding: 30px;
+}
+
+#offer-type {
+    width: 100%;
+    height: 300px;
+    padding: 0 auto;
 }
