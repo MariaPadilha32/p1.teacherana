@@ -18,10 +18,10 @@ body {
 header {
     background-color: #3e4c33;
     text-align: center;
-    position: fixed;
     z-index: 999;
     width: 100%;
 }
+/*if the nav bar to be fixed I add on header*/
 
 .logo {
     margin: auto;
@@ -198,16 +198,24 @@ nav a:hover {
     }
 
     hr {
-        border-top: 1px solid transparent;
+        border-top: 1px solid #3e4c33;
         width: 100%;
         margin: 75px 0;
     }
 
     .detailed-hr {
         border: none;
-        height: 3px;
+        height: 5px;
         background-color: #a22d59;
         background-image: linear-gradient(to right, #a22d59, #fffaeb);
+        margin: 75px 0;
+    }
+
+    .hr-detailed {
+        border: none;
+        height: 5px;
+        background-color: #a22d59;
+        background-image: linear-gradient(to right, #fffaeb, #a22d59);
         margin: 75px 0;
     }
 
@@ -242,6 +250,7 @@ nav a:hover {
         border-width: 2px;
         border-radius: 50px;
         margin: 0 auto;
+
     }
 
     #circle-cover-bg {
@@ -422,4 +431,44 @@ nav a:hover {
 
     input[name="found_us"] {
         padding: 5px;
+    }
+
+    /*style for offer.html*/
+
+    /*Offers*/
+
+    #offer {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 1200px;
+    }
+
+    #offer-type {
+        background-color: #a22d59;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 20px;
+        border: 2px solid #3e4c33;
+        border-radius: 10px;
+    }
+
+
+    #offer-title {
+        background-color: #a22d59;
+        color: #fffaeb;
+        margin-bottom: 10px;
+    }
+
+    #offer p {
+        background-color: #a22d59;
+        color: #fffaeb;
+        line-height: 1.6;
+    }
+
+    #offer li {
+        background-color: #a22d59;
+        color: #fffaeb;
+        line-height: 1.6;
     }
