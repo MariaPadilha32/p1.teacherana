@@ -14,32 +14,81 @@
 
 <body>
     <header>
-        <div id="top">
-            <div class="header">
-                <h1 class="titulo">Mentor for Teachers</h1>
-                <a href="index.html">
-                    <img src="assets/images/greenlogo.png" alt="Logo" id="logo">
-                </a>
+        <h1 class="title">Teacher Ana - Mentor for Teachers <a href="index.html">
+            </a></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
 
-            </div> <!-- If I move this div it might be a solution for the header-->
-
-
-            <nav>
-                <ul id="menu">
-                    <!--Need to align the h1 logo and menu color should be fine pink on beige -->
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="offer.html">What I offer</a></li>
-                    <li><a href="about.html">About me</a></li>
-                    <li><a href="index.html" class="active">Home</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="offer.html">What I offer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     </header>
+    <hr>
+    <section>
+        <h2> Contact me! I will be happy to hear from you! <i class="fa-regular fa-envelope"></i></h2>
+        <hr class="hr1">
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+            </div>
 
-    <h2> I WILL CREAT THE QUESTION</h2>
-    <p>Name/ email/ where did you meet us and contact send a message/ subimt bottom</p>
+            <!--Still need to amend the number-->
+            <div class="form-group">
+                <label for="number">Phone number</label>
+                <input type="text" id="number" name="number">
+                <br>
+            </div>
+            <br>
+            <p>Where did you find me?</p>
+            <div>
+                <label for="whatsapp">Whatsapp <input type="checkbox" id="whatsapp" name="found_us" value="whatsapp">
+                </label>
+
+            </div>
+
+            <div>
+                <label for="instagram">Instagram <input type="checkbox" id="instagram" name="found_us"
+                        value="instagram"></label>
+
+            </div>
+
+            <div>
+                <label for="youtube">Youtube <input type="checkbox" id="youtube" name="found_us" value="youtube">
+                </label>
+
+            </div>
+
+            <div>
+                <label for="other">Others <input type="checkbox" id="other" name="found_us" value="other"> </label>
+
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+                <label for="question_comment">Any question or comment? Let me know</label><br>
+                <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
+            </div>
+
+            <input class="submit" type="submit" value="Send">
+            </div>
+    </section>
+    <br>
+    <br>
     <footer>
         <h4>Come and check out social media!</h4>
+        <hr>
         <ul class="social-media">
             <li>
                 <a href="https://www.youtube.com/@anapauladearaujo5345/streams" target="_blank" rel="noopener"

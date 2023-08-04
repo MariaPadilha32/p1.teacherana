@@ -14,28 +14,20 @@
 
 <body>
     <header>
-        <div id="top">
-            <div class="header">
-                <h1 class="titulo">Mentor for Teachers</h1>
-                <a href="index.html">
-                    <img src="assets/images/greenlogo.png" alt="Logo" id="logo">
-                </a>
-
-            </div> <!-- If I move this div it might be a solution for the header-->
-
-
-            <nav>
-                <ul id="menu">
-                    <!--Need to align the h1 logo and menu color should be fine pink on beige -->
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="offer.html">What I offer</a></li>
-                    <li><a href="about.html">About me</a></li>
-                    <li><a href="index.html" class="active">Home</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1 class="title">Teacher Ana - Mentor for Teachers <a href="index.html">
+            </a></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="offer.html">What I offer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     </header>
-
+    <hr>
     <section id="teaching-to">
         <h2 id="subtitulo">How I can help you:</h2>
 
@@ -45,12 +37,11 @@
 
                 <h3> <i class="fa-solid fa-sack-dollar"></i> Make more Money </h3>
 
-                <hr>
+                <hr class="detailed-hr">
                 <h3> <i class="fa-solid fa-circle-exclamation"></i> Work less </h3>
-
-                <hr>
+                <hr class="detailed-hr">
                 <h3> <i class="fa-solid fa-business-time"></i> Be more efficient </h3>
-                <hr>
+                <hr class="detailed-hr">
 
             </div>
 
@@ -59,11 +50,11 @@
             <div class="right-about-heading">
 
                 <h3> No more homework <i class="fa-regular fa-circle-xmark"> </i> </h3>
-                <hr>
+                <hr class="hr-detailed">
                 <h3> Be your own boss <i class="fa-regular fa-handshake"></i> </h3>
-                <hr>
+                <hr class="hr-detailed">
                 <h3> Make your own schedule <i class="fa-regular fa-calendar-days"> </i> </h3>
-                <hr>
+                <hr class="hr-detailed">
             </div>
         </div>
         <div id="center-about">
@@ -74,6 +65,7 @@
     </section>
     <br>
     <br>
+
     <section id="testimonial">
 
         <div>
@@ -145,6 +137,7 @@
     <br>
     <footer>
         <h4>Come and check out social media!</h4>
+        <hr>
         <ul class="social-media">
             <li>
                 <a href="https://www.youtube.com/@anapauladearaujo5345/streams" target="_blank" rel="noopener"
@@ -164,6 +157,7 @@
             </li>
 
         </ul>
+        <a href="index.html"><img src="/assets/images/greenlogo.png" class="logo"></a>
     </footer>
     <script src="https://kit.fontawesome.com/fd409c0820.js" crossorigin="anonymous"></script>
 </body>
