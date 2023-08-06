@@ -282,10 +282,14 @@ nav a:hover {
         transform: scale(1);
     }
 
-    .introduction {
+    #introduction {
         height: 600px;
-        font-size: large;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 2rem;
         padding: 30px;
+        display: flex;
+        align-items: center;
     }
 
     /*Testimonial*/
