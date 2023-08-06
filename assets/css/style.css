@@ -286,8 +286,8 @@ nav a:hover {
         height: 600px;
         width: 100%;
         margin: 0 auto;
-        font-size: 2rem;
-        padding: 30px;
+        font-size: medium;
+        padding: 10px 30px;
         display: flex;
         align-items: center;
     }
@@ -404,6 +404,26 @@ nav a:hover {
 
     /*Style for the form*/
 
+    fieldset {
+        margin: 2em 0;
+        padding: 1em 2em;
+        border: solid 1px #fffaeb;
+        border-radius: 4px;
+        min-width: 200px;
+    }
+
+    legend {
+        font-size: 1.25em;
+        padding: 0 .25em;
+        color: #fffaeb;
+    }
+
+    #form-group {
+        height: 500p;
+        width: 100%;
+        padding: 5px 30px;
+    }
+
     .form-group {
         float: left;
         width: 50%;
@@ -422,8 +442,10 @@ nav a:hover {
     }
 
     .checkbox-group input[type="checkbox"] {
-        float: left;
-        margin-right: 10px;
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+
     }
 
     label {
@@ -433,6 +455,7 @@ nav a:hover {
 
     input[type="text"],
     input[type="email"],
+    input[type="tel"],
     textarea {
         background-color: #fffaeb;
         color: #3e4c33;
@@ -440,17 +463,16 @@ nav a:hover {
     }
 
     #question_comment {
-        float: left;
-        width: 100%;
-        margin: 2px;
+        min-height: 8em;
+        min-width: 100%;
+        padding: .5em;
+        border: solid 1px #fffaeb;
     }
 
     .submit {
         position: absolute;
-        bottom: 0;
-        right: 0;
         background-color: #fffaeb;
-        color: #3e4c33;
+        color: black;
         font-weight: 200;
     }
 
@@ -462,6 +484,14 @@ nav a:hover {
 
     input[name="found_us"] {
         padding: 5px;
+    }
+
+    #confirmation-message {
+        display: none;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        text-align: center;
     }
 
     /*style for offer.html*/

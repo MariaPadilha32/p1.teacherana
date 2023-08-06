@@ -28,62 +28,72 @@
         </nav>
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     </header>
-    <hr>
-    <section>
-        <h2> Contact me! I will be happy to hear from you! <i class="fa-regular fa-envelope"></i></h2>
-        <hr class="hr1">
+
+    <section id="form-group">
         <form action="/submit_form" method="post">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+            <fieldset>
+                <legend> Contact me! I will be happy to hear from you! <i class="fa-regular fa-envelope"></i></legend>
+
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Phone number</label>
+                    <input type="tel" id="number" name="number">
+                    <br>
+                </div>
                 <br>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <p>Where did you find me?</p>
+                <div>
+                    <input type="checkbox" id="whatsapp" name="found_us" value="whatsapp"> <label
+                        for="whatsapp">Whatsapp
+                    </label>
+
+                </div>
+
+                <div>
+                    <input type="checkbox" id="instagram" name="found_us" value="instagram">
+                    <label for="instagram">Instagram </label>
+
+                </div>
+
+                <div>
+                    <input type="checkbox" id="youtube" name="found_us" value="youtube"> <label for="youtube">Youtube
+                    </label>
+
+                </div>
+
+                <div>
+                    <input type="checkbox" id="other" name="found_us" value="other"> <label for="other">Others </label>
+
+                </div>
                 <br>
-            </div>
-
-            <!--Still need to amend the number-->
-            <div class="form-group">
-                <label for="number">Phone number</label>
-                <input type="text" id="number" name="number">
                 <br>
-            </div>
-            <br>
-            <p>Where did you find me?</p>
-            <div>
-                <label for="whatsapp">Whatsapp <input type="checkbox" id="whatsapp" name="found_us" value="whatsapp">
-                </label>
+                <div class="form-group">
+                    <label for="question_comment">Any question or comment? Let me know</label><br>
+                    <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
+                </div>
 
-            </div>
+                <input class="submit" type="submit" value="Send">
 
-            <div>
-                <label for="instagram">Instagram <input type="checkbox" id="instagram" name="found_us"
-                        value="instagram"></label>
+                </div>
 
-            </div>
-
-            <div>
-                <label for="youtube">Youtube <input type="checkbox" id="youtube" name="found_us" value="youtube">
-                </label>
-
-            </div>
-
-            <div>
-                <label for="other">Others <input type="checkbox" id="other" name="found_us" value="other"> </label>
-
-            </div>
-            <br>
-            <br>
-            <div class="form-group">
-                <label for="question_comment">Any question or comment? Let me know</label><br>
-                <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
-            </div>
-
-            <input class="submit" type="submit" value="Send">
-            </div>
+                <div id="confirmation-message">
+                    Thank you for your message! We will be in contact soon.
+                </div>
+            </fieldset>
+        </form>
     </section>
+
     <br>
     <br>
     <footer>
@@ -108,6 +118,7 @@
             </li>
 
         </ul>
+        <a href="index.html"><img src="/assets/images/greenlogo.png" class="logo" alt="green logo"></a>
     </footer>
     <script src="https://kit.fontawesome.com/fd409c0820.js" crossorigin="anonymous"></script>
 </body>
