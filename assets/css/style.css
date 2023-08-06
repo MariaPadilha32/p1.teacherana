@@ -20,6 +20,8 @@ header {
     text-align: center;
     z-index: 999;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto minxman(600px, 1fr) 1fr;
 }
 
 /*if the nav bar to be fixed I add on header*/
@@ -157,16 +159,33 @@ nav a:hover {
         margin: auto;
     }
 
-    /*Might need to change the sizes later*/
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minxman(600px, 1fr) 1fr;
+    /*hero image*/
+
+    #hero-image {
+        height: 500px;
+        width: 100%;
+        background: url('../images/canvahero.jpg') no-repeat center center;
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    /*hero image zoom*/
+
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
     }
 
     /*Teaching - to section*/
 
     #teaching-to {
-        height: 750px;
+        height: 1200px;
     }
 
     /*When I hover the padding is affecting the border of the photo, how to dix it?*/
@@ -255,7 +274,7 @@ nav a:hover {
     }
 
     #circle-cover-bg {
-        background: url('../images/p1.jpeg') no-repeat center center;
+        background: url('../images/p3.png') no-repeat center center;
         background-size: cover;
         background-position: center;
         height: 100%;
@@ -264,6 +283,7 @@ nav a:hover {
     }
 
     .introduction {
+        height: 600px;
         font-size: large;
         padding: 30px;
     }
@@ -271,6 +291,7 @@ nav a:hover {
     /*Testimonial*/
 
     #testimonial {
+        height: 600px;
         padding: 30px;
         display: flex;
         flex-wrap: wrap;
