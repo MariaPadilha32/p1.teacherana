@@ -359,23 +359,12 @@ nav a:hover {
     /*About me*/
 
     #about {
-        height: 1200px;
+        height: auto;
     }
 
-    #who {
+    #aboutme {
         width: 50%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        text-align: right;
-        padding: 75px;
-
-    }
-
-    #why {
-        width: 50%;
-        float: right;
+        float: center;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
@@ -383,15 +372,32 @@ nav a:hover {
         padding: 75px;
     }
 
+    #aboutme-hero {
+        height: 500px;
+        width: 100%;
+        background: url('../images/aboutme-hero.jpg') no-repeat center center;
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
 
-    #how {
-        width: 50%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        text-align: right;
-        padding: 75px;
+    /*hero aboutme-hero image zoom*/
+
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+
+
+    #hrsimple {
+        border-top: none;
+        padding-top: 5px;
     }
 
     /*footer- urgent must amend footer*/
