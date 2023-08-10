@@ -183,7 +183,7 @@ nav a:hover {
     /*Teaching - to section*/
 
     #teaching-to {
-        height: 1200px;
+        height: auto;
     }
 
     h3:hover {
@@ -526,15 +526,16 @@ nav a:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        height: 1200px;
+        height: auto;
+        width: 100%;
     }
 
-    #offer-type {
+    .offer-type {
         background-color: #a22d59;
         width: 100%;
         height: auto;
         margin-bottom: 10px;
-        padding: 0 auto;
+        padding: 10px;
         border: 2px solid #3e4c33;
         border-radius: 10px;
     }
@@ -558,6 +559,10 @@ nav a:hover {
         line-height: 1.6;
     }
 
+    .table-offer {
+        background-color: #a22d59;
+    }
+
     #offer-hero {
         height: 500px;
         width: 100%;
@@ -577,4 +582,25 @@ nav a:hover {
         to {
             transform: scale(1.1);
         }
+    }
+
+    #boost {
+        background: #a22d59;
+        float: right;
+        width: 33%;
+        height: auto;
+    }
+
+    #revamp {
+        background: #a22d59;
+        float: right;
+        width: 33%;
+        height: auto;
+    }
+
+    #blueprint {
+        background: #a22d59;
+        float: right;
+        width: 33%;
+        height: auto;
     }
