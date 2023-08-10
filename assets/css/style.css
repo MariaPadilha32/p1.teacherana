@@ -258,11 +258,11 @@ nav a:hover {
     }
 
     #circle-container {
-        width: 600px;
-        height: 600px;
+        width: 100%;
+        height: 100%;
         padding: 30px;
         border-style: solid;
-        border-color: #fffaeb;
+        border-color: transparent;
         border-width: 2px;
         border-radius: 50px;
         margin: 0 auto;
@@ -272,10 +272,10 @@ nav a:hover {
     #circle-cover-bg {
         background: url('../images/p3.png') no-repeat center center;
         background-size: cover;
-        background-position: center;
-        height: 100%;
-        border-radius: 50px;
-        transform: scale(1);
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 50%;
+        overflow: hidden;
     }
 
     #introduction {
