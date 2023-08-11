@@ -585,36 +585,60 @@ nav a:hover {
     }
 
     .offer-type {
+        grid-column: 3/4;
         background-color: #a22d59;
-        width: 100%;
+        width: 66%;
         height: auto;
+        float: left;
         margin-bottom: 10px;
-        padding: 10px;
         border: 2px solid #3e4c33;
         border-radius: 10px;
+        padding: 25px;
     }
 
-
-    #offer-title {
-        background-color: #a22d59;
-        color: #fffaeb;
-        margin-bottom: 10px;
-    }
-
-    #offer p {
-        background-color: #a22d59;
-        color: #fffaeb;
-        line-height: 1.6;
-    }
-
-    #offer li {
+    #offer h2,
+    #offer p,
+    #offer table,
+    #offer ul,
+    #offer li,
+    #offer tr,
+    #offer td,
+    .offerphoto {
         background-color: #a22d59;
         color: #fffaeb;
         line-height: 1.6;
     }
 
-    .table-offer {
-        background-color: #a22d59
+    .offerphoto {
+        grid-column: 1/ 4;
+        width: auto;
+        max-width: 350px;
+        max-height: 350px;
+        float: right;
+    }
+
+    .offer-container {
+        background-color: #a22d59;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .offer-type {
+        flex: 1;
+
+    }
+
+    .offer-image {
+        flex: 1;
+
+    }
+
+    .offer-image img {
+        max-width: 100%;
+
     }
 
     #offer-hero {
@@ -636,25 +660,4 @@ nav a:hover {
         to {
             transform: scale(1.1);
         }
-    }
-
-    #boost {
-        background: #a22d59;
-        float: right;
-        width: 33%;
-        height: auto;
-    }
-
-    #revamp {
-        background: #a22d59;
-        float: right;
-        width: 33%;
-        height: auto;
-    }
-
-    #blueprint {
-        background: #a22d59;
-        float: right;
-        width: 33%;
-        height: auto;
     }
