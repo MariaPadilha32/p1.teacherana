@@ -623,6 +623,19 @@ nav a:hover {
         line-height: 1.6;
     }
 
+    .moreinfo{
+        float: right;
+        font-size: medium;
+        background-color: #a22d59;
+    }
+
+    .fa-solid fa-bullseye,
+    .fa-solid fa-wifi,
+    .fa-solid fa-stopwatch{
+    background-color: #a22d59;
+    }
+
+
     .offerphoto {
         grid-column: 1/ 4;
         width: auto;
@@ -654,6 +667,7 @@ nav a:hover {
         max-width: 100%;
 
     }
+
 
     #offer-hero {
         height: 500px;
