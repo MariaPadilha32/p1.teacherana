@@ -201,6 +201,7 @@ nav a:hover {
         }
     }
 
+
     /*Teaching - to section*/
 
     #teaching-to {
@@ -312,21 +313,21 @@ nav a:hover {
     /*for larger to medium screen size for teaching-to*/
     @media screen and (max-width: 1200px) {
         #teaching-to {
-            width: 65%;
+            width: 90%;
             height: auto;
             margin: 0 auto;
+
         }
 
         #subtitulo {
-            padding: 30px 0;
-            margin: 0;
+            width: inherit;
         }
 
-        #left-about,
-        #right-about {
+        .left-about,
+        .right-about {
             width: 100%;
             float: left;
-            padding: 0;
+            padding: 5px 10px;
         }
 
         #center-about {
@@ -343,8 +344,35 @@ nav a:hover {
             padding: 0;
         }
 
-        .hr-detailed
+        #testimonial>div {
+            width: 100%;
+            clear: both;
+            height: auto;
+            padding: 0 auto;
+
+        }
+
+        #hero-image {
+            width: 100%;
+            height: auto;
+        }
+
+        #aboutme-hero {
+            width: 100%;
+            height: auto;
+        }
+
+        #offer-hero {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
     }
+
+
 
     /*Testimonial*/
 
@@ -378,6 +406,9 @@ nav a:hover {
         line-height: 1.6;
     }
 
+
+
+
     /*About me*/
 
     #about {
@@ -385,13 +416,17 @@ nav a:hover {
     }
 
     #aboutme {
-        width: 50%;
+        width: 100%;
         float: center;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
-        text-align: left;
-        padding: 75px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .aboutphoto {
+        position: center;
     }
 
     #aboutme-hero {
@@ -413,13 +448,6 @@ nav a:hover {
         to {
             transform: scale(1.1);
         }
-    }
-
-
-
-    #hrsimple {
-        border-top: none;
-        padding-top: 5px;
     }
 
     /*footer- urgent must amend footer*/
