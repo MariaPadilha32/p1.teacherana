@@ -24,6 +24,10 @@ header {
     grid-template-columns: 1fr auto minxman(360px, 1fr) 1fr;
 }
 
+h1 {
+    padding: .25em 1em;
+}
+
 .logo {
     margin: auto;
     max-height: 80px;
@@ -406,9 +410,6 @@ nav a:hover {
         line-height: 1.6;
     }
 
-
-
-
     /*About me*/
 
     #about {
@@ -423,10 +424,16 @@ nav a:hover {
         margin-bottom: 50px;
         text-align: center;
         padding: 20px;
+        font-size: larger;
     }
 
     .aboutphoto {
         position: center;
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+        padding: 2em;
+
     }
 
     #aboutme-hero {
@@ -572,8 +579,6 @@ nav a:hover {
 
 
     /*style for offer.html*/
-
-    /*Offers*/
 
     #offer {
         padding: 10px;
