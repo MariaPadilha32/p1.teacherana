@@ -445,6 +445,15 @@ nav a:hover {
         animation-fill-mode: forwards;
     }
 
+    #aboutend {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    #aboutme:hover {
+        scale: transform: scale(1.1);
+    }
+
     /*hero aboutme-hero image zoom*/
 
     @keyframes hero-zoom {
