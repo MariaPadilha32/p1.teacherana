@@ -578,14 +578,21 @@ nav a:hover {
         padding: 5px;
     }
 
-    #confirmation-message {
+    /*#confirmation-message {
         display: none;
         margin-top: 20px;
         padding: 10px;
         background-color: #f0f0f0;
         text-align: center;
+    }*/
+
+    #thank-you-message {
+        display: none;
     }
 
+    #thank-you-section:target #thank-you-message {
+        display: block;
+    }
 
     /*style for offer.html*/
 
@@ -623,7 +630,7 @@ nav a:hover {
         line-height: 1.6;
     }
 
-    .moreinfo{
+    .moreinfo {
         float: right;
         font-size: medium;
         background-color: #a22d59;
@@ -631,8 +638,8 @@ nav a:hover {
 
     .fa-solid fa-bullseye,
     .fa-solid fa-wifi,
-    .fa-solid fa-stopwatch{
-    background-color: #a22d59;
+    .fa-solid fa-stopwatch {
+        background-color: #a22d59;
     }
 
 
