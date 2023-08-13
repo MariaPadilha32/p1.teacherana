@@ -1,15 +1,21 @@
-# Teacher Ana
+# Teacher Ana: Empowering Educators as Entrepreneurs
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+  Welcome to "Teacher Ana: Turning Teachers into Entrepreneurs"! With over a decade of experience in English teaching, Teacher Ana understands the struggles of being a full-time mom, wife, and educator. But she has cracked the code – achieving financial stability while reducing workload. Now, she's on a mission to share her proven strategies with fellow educators.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+ The website is targeted to teachers that feel the need to improve their career while working less hours, Teacher Ana's website stands as a beacon of support. Through her very active social media, she has already touched the lives of thousands by offering invaluable tips for improvement. Now, Ana extends a roadmap for fellow teachers to achieve the same balance. Join her journey in transforming your teaching career into a thriving business. Together, we'll change the lives of educators and students, one empowered step at a time.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
+******************************************************
+  In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. Our website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information o each page:
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+About Ana: On the first page, you'll first learn how Teacher Ana can help you improve you business, followed by a concise introduction highlighting her areas of expertise and how she can support you. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
 
+Empowerment Packages: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
+
+Connect with Ana: Engage directly with Teacher Ana through an interactive form. Pose questions, share thoughts, and tap into her expertise. Leave your contact details and the source of your discovery, and let's embark on a journey of empowerment together.
+******************************************************
 ### Existing Features
 
 - __Navigation Bar__
