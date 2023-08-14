@@ -7,53 +7,69 @@
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
-******************************************************
+
   In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. Our website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information o each page:
 
-About Ana: On the first page, you'll first learn how Teacher Ana can help you improve you business, followed by a concise introduction highlighting her areas of expertise and how she can support you. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
+Main page: On the first page, you'll first learn how Teacher Ana can help you improve you business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
 
-Empowerment Packages: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
 
-Connect with Ana: Engage directly with Teacher Ana through an interactive form. Pose questions, share thoughts, and tap into her expertise. Leave your contact details and the source of your discovery, and let's embark on a journey of empowerment together.
-******************************************************
+About Me: The second page provides a more in-depth insight into the identity of Teacher Ana, her motivations for innovating her teaching methods, and the reasons for creating the VHS method.
+
+Offers: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
+
+Connect with Ana: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
+
+All pages have offers an easy access to social medias.
+
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Present on all four pages, the fully responsive navigation bar comprises links to Home, About Me, Services, and Contact. Its consistency across every page for an easy navigation. This feature enables users to seamlessly move between pages across all devices, eliminating the need to rely on the browser's 'back' button.
+ 
+  - The navigation bar also incorporates the motto, allowing users to swiftly underestand the website's purpose.
+  
+  - Additionally, on smaller devices, the navigation bar transforms into a user-friendly dropdown menu, simplifying page selection.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+*******ADD PHOTO HERE NAV BAR********
 
-- __The landing page image__
+- __The Hero Image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page features a customized image crafted through Canvas, tailored to the client's preferences. This image serves as a versatile asset that can be utilized across her various social media platforms. It incorporates colors, fonts, and intricate details that align with her brand identity.
+    
+  -  It's made extra interesting with a special zooming effect that quickly grabs your attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+********ADD PHOTO OF THE HERO IMAGE******
 
-- __Club Ethos Section__
+- __"Teaching to" Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The 'Teaching For You' section summarizes how the mentor can enhance the user's working life with direct points.
+  - 
+  - The goal is to make user curious and interested in learning more about what Teacher Ana can offer. This should motivate the user to explore the website.
+  - 
+  - This section also includes a subtle animation where each phase slightly enlarges when hovered over with the cursor.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+******************** ADD PHOTO OF THE TEACHING TO SECTION ****************************
 
-- __Meetup Times section__
+- __Testimonails__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - In this section, you'll find heartfelt testimonials from students and some people who were mentored by Teacher Ana. They share how her work has positively impacted their lives.
+    
+  - While the testimonials are authentic, the names have been altered to ensure privacy. However, you can also find the same testimonials on social media. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+************** ADD PHOTOS OF TESTIMONIALS *******************************
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section features direct links to Teacher Ana's Instagram, Youtube Channel and Whatsapp. Clicking on these links will open a new tab for convenient navigation.
+    
+  - Additionally, the footer includes the logo image, which acts as a link. Clicking on it will take the user back to the top of the home page.
+ 
+  - Teacher Ana operates her business entirely online from her home. For safety and privacy reasons, her address is not disclosed. However, users can easily contact her through WhatsApp. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+******** ADD PHOTO **************
 
-- __Gallery__
+- __About Me__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
