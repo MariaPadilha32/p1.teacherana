@@ -33,7 +33,7 @@ h1 {
     max-height: 80px;
     max-width: 80px;
     float: right;
-    align-items: center;
+
 }
 
 .nav-toggle {
@@ -84,7 +84,6 @@ nav {
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 100ms ease-in-out;
-
 }
 
 nav ul {
@@ -146,41 +145,12 @@ nav a:hover {
     nav ul {
         display: flex;
         justify-content: flex-end;
-
     }
 
     nav li {
         margin-left: 3em;
         margin-bottom: 0;
     }
-
-
-    /* This is not working -need to come back
-   
-   h1 {
-        text-align: right;
-        margin: auto;
-    }
-
-
-    @media screen and (max-width: 767px) {
-        h1 {
-            font-size: 2em;
-        }
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        h1 {
-            font-size: 3em;
-        }
-    }
-
-    @media screen and (min-width: 1024px) {
-        h1 {
-            font-size: 3em;
-        }
-    }
-*/
 
     /*hero image*/
 
@@ -205,6 +175,12 @@ nav a:hover {
         }
     }
 
+    .title {
+        text-align: center;
+        font-size: 300%;
+        margin-left: 0;
+        padding: 1em;
+    }
 
     /*Teaching - to section*/
 
@@ -212,12 +188,12 @@ nav a:hover {
         height: auto;
     }
 
-    h3:hover {
+    h2:hover {
         transform: scale(1.1);
         color: #fffaeb;
     }
 
-    h3 {
+    h2 {
         font-size: larger;
     }
 
@@ -231,7 +207,6 @@ nav a:hover {
         padding: 30px 10px 20px;
         width: 33%;
         float: right;
-
     }
 
     #center-about {
@@ -292,11 +267,10 @@ nav a:hover {
         border-width: 2px;
         border-radius: 50px;
         margin: 0 auto;
-
     }
 
     #circle-cover-bg {
-        background: url('../images/p3.png') no-repeat center center;
+        background: url('../images/pthree.png') no-repeat center center;
         background-size: cover;
         width: 100%;
         padding-top: 100%;
@@ -320,7 +294,6 @@ nav a:hover {
             width: 90%;
             height: auto;
             margin: 0 auto;
-
         }
 
         #subtitulo {
@@ -353,7 +326,6 @@ nav a:hover {
             clear: both;
             height: auto;
             padding: 0 auto;
-
         }
 
         #hero-image {
@@ -370,13 +342,7 @@ nav a:hover {
             width: 100%;
             height: auto;
         }
-
-
-
-
     }
-
-
 
     /*Testimonial*/
 
@@ -396,7 +362,6 @@ nav a:hover {
         border: 2px solid #3e4c33;
         border-radius: 10px;
     }
-
 
     #testimonial h3 {
         background-color: #a22d59;
@@ -433,7 +398,6 @@ nav a:hover {
         max-width: 500px;
         max-height: 500px;
         padding: 2em;
-
     }
 
     #aboutme-hero {
@@ -451,7 +415,7 @@ nav a:hover {
     }
 
     #aboutme:hover {
-        scale: transform: scale(1.1);
+        scale: transform scale(1.1);
     }
 
     /*hero aboutme-hero image zoom*/
@@ -490,9 +454,9 @@ nav a:hover {
         padding: 5%;
     }
 
-    h2 {
+    /*  h2 {
         padding: 30px 10px;
-    }
+    }*/
 
     /*Style for the form*/
 
@@ -537,7 +501,6 @@ nav a:hover {
         display: inline-block;
         padding-top: 0;
         margin-top: 0;
-
     }
 
     label {
@@ -612,7 +575,7 @@ nav a:hover {
         height: auto;
         float: left;
         margin-bottom: 10px;
-        border: 2px solid #3e4c33;
+        border: 2px solid #a22d59;
         border-radius: 10px;
         padding: 25px;
     }
@@ -642,7 +605,6 @@ nav a:hover {
         background-color: #a22d59;
     }
 
-
     .offerphoto {
         grid-column: 1/ 4;
         width: auto;
@@ -657,22 +619,18 @@ nav a:hover {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
-
     }
 
     .offer-type {
         flex: 1;
-
     }
 
     .offer-image {
         flex: 1;
-
     }
 
     .offer-image img {
         max-width: 100%;
-
     }
 
 

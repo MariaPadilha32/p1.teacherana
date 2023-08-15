@@ -7,89 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website for teachers looking for a professional growth">
     <meta name="keywords" content="teacher, language teacher, tutor, professional growth">
-
+<!--CSS style sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Teacher Ana</title>
 </head>
 
 <body>
+<!-- Logo and Navigation -->
     <header>
-        <h1 class="title">Turning Teachers into Entrepreneurs <a href="index.html">
-            </a></h1>
+        <img src="assets/images/whitelogo.png" alt="logo" style="max-height:80px; max-width: 80px;">
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
-
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About me</a></li>
-                <li><a href="offer.html">What I offer</a></li>
+                <li><a href="offer.html">Offer</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     </header>
-
+<!--Form group-->
     <section id="form-group">
-        <form action="/submit_form" method="post">
+        <form action="submit_form" method="post">
             <fieldset>
                 <legend> Contact me! I will be happy to hear from you! <i class="fa-regular fa-envelope"></i></legend>
-
-
                 <div class="form-group">
+                    <!--Name-->
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                     <br>
                 </div>
+                <!--Email-->
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                     <br>
                 </div>
-
+                <!--Phone Number-->
                 <div class="form-group">
                     <label for="number">Phone number</label>
                     <input type="tel" id="number" name="number">
                     <br>
                 </div>
                 <br>
+                <!--Checkbox-->
                 <p>Where did you find me?</p>
                 <div>
                     <input type="checkbox" id="whatsapp" name="found_us" value="whatsapp"> <label
                         for="whatsapp">Whatsapp
                     </label>
-
                 </div>
-
                 <div>
                     <input type="checkbox" id="instagram" name="found_us" value="instagram">
                     <label for="instagram">Instagram </label>
-
                 </div>
-
                 <div>
                     <input type="checkbox" id="youtube" name="found_us" value="youtube"> <label for="youtube">Youtube
                     </label>
-
                 </div>
-
                 <div>
                     <input type="checkbox" id="other" name="found_us" value="other"> <label for="other">Others </label>
-
                 </div>
                 <br>
-                <br>
+                <!--Text area-->
                 <div class="form-group">
                     <label for="question_comment">Any question or comment? Let me know</label><br>
                     <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
                 </div>
-
+                <!--Submit-->
                 <input class="submit" type="submit" value="Send">
-
                 </div>
-
         </form>
     </section>
-
+<!--Thank You section - still not working-->
     <section id="thank-you-section">
         <form action="/submit_form" method="post">
             <div id="thank-you-message">
@@ -97,35 +88,31 @@
             </div>
         </form>
     </section>
-
-
-
     <br>
-    <br>
+    <!-- Footer Section -->
     <footer>
         <h4>Come and check out social media!</h4>
         <hr>
+        <!-- Social Media Information -->
         <ul class="social-media">
             <li>
                 <a href="https://www.youtube.com/@anapauladearaujo5345/streams" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
-
             <li>
                 <a href="https://www.instagram.com/souteacherana/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page(opens in a new tab)"> <i class="fa-brands fa-instagram"></i></a>
             </li>
-
             <li>
                 <a href="https://api.whatsapp.com/send?phone=5567981323308&text=Ol%C3%A1!%20Gostaria%20de%20receber%20maiores%20informa%C3%A7%C3%B5es%20sobre%20a%20mentoria%20*Professores%20de%20Elite*%20para%20professores%20que%20j%C3%A1%20ganham%20acima%20de%2010k%20por%20m%C3%AAs"
                     target="_blank" rel="noopener" aria-label="Visit our Facebook page(opens in a new tab)">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
             </li>
-
         </ul>
         <a href="index.html"><img src="/assets/images/greenlogo.png" class="logo" alt="green logo"></a>
     </footer>
+    <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/fd409c0820.js" crossorigin="anonymous"></script>
 </body>
 
