@@ -24,16 +24,15 @@ header {
     grid-template-columns: 1fr auto minxman(360px, 1fr) 1fr;
 }
 
-h1 {
-    padding: .25em 1em;
+.logo {
+    padding: 10x;
 }
 
-.logo {
-    margin: auto;
-    max-height: 80px;
-    max-width: 80px;
-    float: right;
-
+/*Not working right now*/
+@media screen and (max-width: 800px) {
+    .logo {
+        float: left;
+    }
 }
 
 .nav-toggle {
@@ -44,7 +43,7 @@ h1 {
     position: absolute;
     top: 10px;
     left: 0;
-    margin-left: 1em;
+    margin-right: 1em;
     height: 1em;
     display: flex;
     align-items: center;
@@ -120,537 +119,498 @@ nav a:hover {
     .nav-toggle-label {
         display: none;
     }
+}
 
-    /*might change the color later*/
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+}
+
+.title {
+    grid-column: 1/ 4;
+    justify-self: left;
+    margin-left: 0em;
+}
+
+nav {
+    all: unset;
+    grid-column: 4/ 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+}
+
+/*hero image*/
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/canvahero.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*hero image zoom*/
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
 
-    .title {
-        grid-column: 1/ 4;
-        justify-self: left;
-        margin-left: 0em;
-    }
-
-    nav {
-        all: unset;
-        grid-column: 4/ 4;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    nav li {
-        margin-left: 3em;
-        margin-bottom: 0;
-    }
-
-    /*hero image*/
-
-    #hero-image {
-        height: 500px;
-        width: 100%;
-        background: url('../images/canvahero.jpg') no-repeat center center;
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-    /*hero image zoom*/
-
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1);
-        }
-    }
-
-    .title {
-        text-align: center;
-        font-size: 300%;
-        margin-left: 0;
-        padding: 1em;
-    }
-
-    /*Teaching - to section*/
-
-    #teaching-to {
-        height: auto;
-    }
-
-    h2:hover {
+    to {
         transform: scale(1.1);
-        color: #fffaeb;
     }
+}
 
-    h2 {
-        font-size: larger;
-    }
+.title {
+    text-align: center;
+    font-size: 300%;
+    margin-left: 0;
+    padding: 1em;
+}
 
-    #left-about {
-        padding: 30px 10px 20px;
-        width: 33%;
-        float: left;
-    }
+/*Teaching - to section*/
+#teaching-to {
+    height: auto;
+}
 
-    #right-about {
-        padding: 30px 10px 20px;
-        width: 33%;
-        float: right;
-    }
+h2:hover {
+    transform: scale(1.1);
+    color: #fffaeb;
+}
 
-    #center-about {
-        width: 33%;
+h2 {
+    font-size: larger;
+}
+
+#left-about {
+    padding: 30px 10px 20px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding: 30px 10px 20px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3e4c33;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.detailed-hr {
+    border: none;
+    height: 5px;
+    background-color: #a22d59;
+    background-image: linear-gradient(to right, #a22d59, #fffaeb);
+    margin: 75px 0;
+}
+
+.hr-detailed {
+    border: none;
+    height: 5px;
+    background-color: #a22d59;
+    background-image: linear-gradient(to right, #fffaeb, #a22d59);
+    margin: 75px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+#subtitulo {
+    font-size: 200%;
+    padding: 30px;
+}
+
+#circle-container {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/pthree.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#introduction {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    font-size: x-large;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+/*for larger to medium screen size for teaching-to*/
+@media screen and (max-width: 1200px) {
+    #teaching-to {
+        width: 90%;
+        height: auto;
         margin: 0 auto;
-    }
-
-    hr {
-        border-top: 1px solid #3e4c33;
-        width: 100%;
-        margin: 75px 0;
-    }
-
-    .detailed-hr {
-        border: none;
-        height: 5px;
-        background-color: #a22d59;
-        background-image: linear-gradient(to right, #a22d59, #fffaeb);
-        margin: 75px 0;
-    }
-
-    .hr-detailed {
-        border: none;
-        height: 5px;
-        background-color: #a22d59;
-        background-image: linear-gradient(to right, #fffaeb, #a22d59);
-        margin: 75px 0;
-    }
-
-    .left-about-heading {
-        width: 60%;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
-
-    .right-about-heading {
-        width: 60%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        text-align: right;
     }
 
     #subtitulo {
-        font-size: 200%;
-        padding: 30px;
+        width: inherit;
     }
 
-    #circle-container {
+    .left-about,
+    .right-about {
         width: 100%;
-        height: 100%;
-        padding: 30px;
-        border-style: solid;
-        border-color: transparent;
-        border-width: 2px;
-        border-radius: 50px;
-        margin: 0 auto;
+        float: left;
+        padding: 5px 10px;
     }
 
-    #circle-cover-bg {
-        background: url('../images/pthree.png') no-repeat center center;
-        background-size: cover;
+    #center-about {
+        clear: both;
         width: 100%;
-        padding-top: 100%;
-        border-radius: 50%;
-        overflow: hidden;
+        float: left;
+        padding: 0;
     }
 
     #introduction {
-        height: auto;
-        width: 100%;
-        margin: 0 auto;
-        font-size: x-large;
-        padding: 10px 30px;
-        display: flex;
-        align-items: center;
-    }
-
-    /*for larger to medium screen size for teaching-to*/
-    @media screen and (max-width: 1200px) {
-        #teaching-to {
-            width: 90%;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        #subtitulo {
-            width: inherit;
-        }
-
-        .left-about,
-        .right-about {
-            width: 100%;
-            float: left;
-            padding: 5px 10px;
-        }
-
-        #center-about {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
-        #introduction {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
-        #testimonial>div {
-            width: 100%;
-            clear: both;
-            height: auto;
-            padding: 0 auto;
-        }
-
-        #hero-image {
-            width: 100%;
-            height: auto;
-        }
-
-        #aboutme-hero {
-            width: 100%;
-            height: auto;
-        }
-
-        #offer-hero {
-            width: 100%;
-            height: auto;
-        }
-    }
-
-    /*Testimonial*/
-
-    #testimonial {
-        height: auto;
-        padding: 30px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    #testimonial div {
-        background-color: #a22d59;
-        width: 20%;
-        margin-bottom: 30px;
-        padding: 20px;
-        border: 2px solid #3e4c33;
-        border-radius: 10px;
-    }
-
-    #testimonial h3 {
-        background-color: #a22d59;
-        color: #fffaeb;
-        margin-bottom: 10px;
-    }
-
-    #testimonial p {
-        background-color: #a22d59;
-        color: #fffaeb;
-        line-height: 1.6;
-    }
-
-    /*About me*/
-
-    #about {
-        height: auto;
-    }
-
-    #aboutme {
-        width: 100%;
-        float: center;
-        line-height: 20px;
         clear: both;
-        margin-bottom: 50px;
-        text-align: center;
-        padding: 20px;
-        font-size: larger;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
 
-    .aboutphoto {
-        position: center;
-        width: auto;
-        max-width: 500px;
-        max-height: 500px;
-        padding: 2em;
+    #testimonial>div {
+        width: 100%;
+        clear: both;
+        height: auto;
+        padding: 0 auto;
+    }
+
+    #hero-image {
+        width: 100%;
+        height: auto;
     }
 
     #aboutme-hero {
-        height: 500px;
         width: 100%;
-        background: url('../images/aboutme-hero.jpg') no-repeat center center;
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-    #aboutend {
-        font-size: xx-large;
-        font-weight: bold;
-    }
-
-    #aboutme:hover {
-        scale: transform scale(1.1);
-    }
-
-    /*hero aboutme-hero image zoom*/
-
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1);
-        }
-    }
-
-    /*footer- urgent must amend footer*/
-    footer {
-        height: 100px;
-    }
-
-    h4 {
-        padding: 30px;
-        font-weight: 300;
-    }
-
-    .social-media {
-        text-align: center;
-    }
-
-    .social-media>li {
-        display: inline;
-    }
-
-    .social-media i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-    }
-
-    /*  h2 {
-        padding: 30px 10px;
-    }*/
-
-    /*Style for the form*/
-
-    fieldset {
-        margin: 2em 0;
-        padding: 1em 2em;
-        border: solid 1px #fffaeb;
-        border-radius: 4px;
-        min-width: 200px;
-    }
-
-    legend {
-        font-size: 1.25em;
-        padding: 0 .25em;
-        color: #fffaeb;
-    }
-
-    #form-group {
-        height: 500p;
-        width: 100%;
-        padding: 5px 30px;
-    }
-
-    .form-group {
-        float: left;
-        width: 50%;
-        margin-right: 2%;
-        padding: 5px 30px;
-    }
-
-    .form-group textarea {
-        width: 100%;
-    }
-
-    .checkbox-group:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .checkbox-group input[type="checkbox"] {
-        display: inline-block;
-        padding-top: 0;
-        margin-top: 0;
-    }
-
-    label {
-        display: block;
-        color: #fffaeb;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea {
-        background-color: #fffaeb;
-        color: #3e4c33;
-        padding: 5px;
-    }
-
-    #question_comment {
-        min-height: 8em;
-        min-width: 100%;
-        padding: .5em;
-        border: solid 1px #fffaeb;
-    }
-
-    .submit {
-        position: absolute;
-        background-color: #fffaeb;
-        color: black;
-        font-weight: 200;
-    }
-
-    .hr1 {
-        border-top: 1px solid #fffaeb;
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    input[name="found_us"] {
-        padding: 5px;
-    }
-
-    /*#confirmation-message {
-        display: none;
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #f0f0f0;
-        text-align: center;
-    }*/
-
-    #thank-you-message {
-        display: none;
-    }
-
-    #thank-you-section:target #thank-you-message {
-        display: block;
-    }
-
-    /*style for offer.html*/
-
-    #offer {
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         height: auto;
-        width: 100%;
     }
-
-    .offer-type {
-        grid-column: 3/4;
-        background-color: #a22d59;
-        width: 66%;
-        height: auto;
-        float: left;
-        margin-bottom: 10px;
-        border: 2px solid #a22d59;
-        border-radius: 10px;
-        padding: 25px;
-    }
-
-    #offer h2,
-    #offer p,
-    #offer table,
-    #offer ul,
-    #offer li,
-    #offer tr,
-    #offer td,
-    .offerphoto {
-        background-color: #a22d59;
-        color: #fffaeb;
-        line-height: 1.6;
-    }
-
-    .moreinfo {
-        float: right;
-        font-size: medium;
-        background-color: #a22d59;
-    }
-
-    .fa-solid fa-bullseye,
-    .fa-solid fa-wifi,
-    .fa-solid fa-stopwatch {
-        background-color: #a22d59;
-    }
-
-    .offerphoto {
-        grid-column: 1/ 4;
-        width: auto;
-        max-width: 350px;
-        max-height: 350px;
-        float: right;
-    }
-
-    .offer-container {
-        background-color: #a22d59;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-
-    .offer-type {
-        flex: 1;
-    }
-
-    .offer-image {
-        flex: 1;
-    }
-
-    .offer-image img {
-        max-width: 100%;
-    }
-
 
     #offer-hero {
-        height: 500px;
         width: 100%;
-        background: url('../images/offer-hero.jpg') no-repeat center center;
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+        height: auto;
+    }
+}
+
+/*Testimonial*/
+#testimonial {
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#testimonial div {
+    background-color: #a22d59;
+    width: 20%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #3e4c33;
+    border-radius: 10px;
+}
+
+#testimonial h3 {
+    background-color: #a22d59;
+    color: #fffaeb;
+    margin-bottom: 10px;
+}
+
+#testimonial p {
+    background-color: #a22d59;
+    color: #fffaeb;
+    line-height: 1.6;
+}
+
+/*About me*/
+#about {
+    height: auto;
+}
+
+#aboutme {
+    width: 100%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.aboutphoto {
+    position: center;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 2em;
+}
+
+#aboutme-hero {
+    height: 500px;
+    width: 100%;
+    background: url('../images/aboutme-hero.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#aboutend {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#aboutme:hover {
+    scale: transform scale(1.1);
+}
+
+/*hero aboutme-hero image zoom*/
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
 
-    /*hero image zoom*/
-
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1);
-        }
+    to {
+        transform: scale(1.1);
     }
+}
+
+/*footer*/
+footer {
+    height: auto;
+}
+
+h4 {
+    padding: 1em;
+    font-weight: 300%;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+}
+
+/*Style for the form*/
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #fffaeb;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+legend {
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #fffaeb;
+}
+
+#form-group {
+    height: 500px;
+    width: 100%;
+    padding: 5px 30px;
+}
+
+.form-group {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.form-group textarea {
+    width: 100%;
+}
+
+label {
+    display: block;
+    color: #fffaeb;
+    width: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background-color: #fffaeb;
+    color: #3e4c33;
+    padding: 5px;
+}
+
+#question_comment {
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px #fffaeb;
+}
+
+.submit {
+    position: block;
+    margin-top: 10px;
+    background-color: #fffaeb;
+    color: #3e4c33;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.hr1 {
+    border-top: 1px solid #fffaeb;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/*Thank you page*/
+#thank-you-message {
+    padding: 75px;
+    height: 300px;
+    background-color: #3e4c33;
+    text-align: center;
+    font-size: 200%;
+}
+
+/*style for offer.html*/
+#offer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.offer-type {
+    grid-column: 3/4;
+    background-color: #a22d59;
+    width: 66%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+    border: 2px solid #a22d59;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#offer h2,
+#offer p,
+#offer table,
+#offer ul,
+#offer li,
+#offer tr,
+#offer td,
+.offerphoto {
+    background-color: #a22d59;
+    color: #fffaeb;
+    line-height: 1.6;
+}
+
+.moreinfo {
+    float: right;
+    font-size: medium;
+    background-color: #a22d59;
+}
+
+.offerphoto {
+    grid-column: 1/ 4;
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+    float: right;
+}
+
+.offer-container {
+    background-color: #a22d59;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.offer-type {
+    flex: 1;
+}
+
+.offer-image {
+    flex: 1;
+}
+
+.offer-image img {
+    max-width: 100%;
+}
+
+#offer-hero {
+    height: 500px;
+    width: 100%;
+    background: url('../images/offer-hero.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*hero image zoom*/
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
