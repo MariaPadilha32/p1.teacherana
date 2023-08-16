@@ -131,13 +131,10 @@ nav a:hover {
     }
 
     .logo {
-        grid-column: 2 / 3;
+        grid-column: 1 / 5;
     }
 
     nav {
-        // all: unset; /* this causes issues with Edge, since it's unsupported */
-
-        /* the following lines are not from my video, but add Edge support */
         position: relative;
         text-align: left;
         transition: none;
@@ -146,8 +143,7 @@ nav a:hover {
         top: initial;
         left: initial;
         /* end Edge support stuff */
-
-        grid-column: 3 / 4;
+        grid-column: 4 / 5;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -220,7 +216,7 @@ nav a:hover {
 }
 
 h2:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: #fffaeb;
 }
 
@@ -445,10 +441,6 @@ hr {
 #aboutend {
     font-size: xx-large;
     font-weight: bold;
-}
-
-#aboutme:hover {
-    transform: scale(1.1);
 }
 
 /*hero aboutme-hero image zoom*/
