@@ -154,7 +154,7 @@ nav li {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/canvahero.jpg') no-repeat center center;
+    background: url('../images/heroone.jpg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -373,7 +373,7 @@ hr {
 #about {
     height: auto;
 }
-
+aboutme-hero
 #aboutme {
     width: 100%;
     float: center;
@@ -396,7 +396,7 @@ hr {
 #aboutme-hero {
     height: 500px;
     width: 100%;
-    background: url('../images/aboutme-hero.jpg') no-repeat center center;
+    background: url('../images/herotwo.jpg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -598,7 +598,7 @@ textarea {
 #offer-hero {
     height: 500px;
     width: 100%;
-    background: url('../images/offer-hero.jpg') no-repeat center center;
+    background: url('../images/herothree.jpg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -614,3 +614,26 @@ textarea {
         transform: scale(1.1);
     }
 }
+
+/*Hero images for smaller screens*/
+
+@media screen and (max-width: 800px) {
+    #hero-image {
+        height: 250px;
+        background: url('../images/heroones.jpg') no-repeat center center;
+        animation-name: none;
+    }
+
+     #aboutme-hero {
+        height: 250px;
+        background: url('../images/herotwos.jpg') no-repeat center center;
+        animation-name: none;}
+    
+     #offer-hero {
+        height: 250px;
+        background: url('../images/herothrees.jpg') no-repeat center center;
+        animation-name: none;}
+    }
+
+
+   
