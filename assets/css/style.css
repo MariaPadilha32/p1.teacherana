@@ -21,30 +21,29 @@ header {
     z-index: 999;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr auto minxman(360px, 1fr) 1fr;
+    grid-template-columns: 1fr auto minmax(360px, 1fr) 1fr;
 }
 
 .logo {
-    padding: 10x;
-}
-
-/*Not working right now*/
-@media screen and (max-width: 800px) {
-    .logo {
-        float: left;
-    }
+    margin: 0 auto;
 }
 
 .nav-toggle {
-    display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.nav-toggle:focus~.nav-toggle-label {
+    outline: 3px solid #3e4c33;
 }
 
 .nav-toggle-label {
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 0;
-    margin-right: 1em;
-    height: 1em;
+    margin-left: 1em;
+    height: 2em;
     display: flex;
     align-items: center;
 }
@@ -53,7 +52,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background-color: #fffaeb;
+    background: white;
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -79,10 +78,13 @@ nav {
     text-align: left;
     top: 2em;
     left: 0;
-    width: 100%;
+    width: 30%;
     transform: scale(1, 0);
     transform-origin: top;
-    transition: transform 100ms ease-in-out;
+    transition: transform 400ms ease-in-out;
+    background-color: #3e4c33;
+    border-top: 1px solid #a22d59;
+    padding-top: 10px;
 }
 
 nav ul {
@@ -99,8 +101,10 @@ nav li {
 nav a {
     color: #fffaeb;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
@@ -111,43 +115,74 @@ nav a:hover {
     transform: scale(1, 1);
 }
 
-.nav-toggle: checked~nav a {
+.nav-toggle:checked~nav a {
     opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
 }
 
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
     }
-}
 
-header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
-}
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
 
-.title {
-    grid-column: 1/ 4;
-    justify-self: left;
-    margin-left: 0em;
-}
+    .logo {
+        grid-column: 2 / 3;
+    }
 
-nav {
-    all: unset;
-    grid-column: 4/ 4;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+    nav {
+        // all: unset; /* this causes issues with Edge, since it's unsupported */
 
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-}
+        /* the following lines are not from my video, but add Edge support */
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1, 1);
+        background: none;
+        top: initial;
+        left: initial;
+        /* end Edge support stuff */
 
-nav li {
-    margin-left: 3em;
-    margin-bottom: 0;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: #a22d59;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+    }
+
+    nav a:hover::before {
+        transform: scale(1, 1);
+    }
 }
 
 /*hero image*/
@@ -171,11 +206,12 @@ nav li {
     }
 }
 
-.title {
-    text-align: center;
-    font-size: 300%;
-    margin-left: 0;
-    padding: 1em;
+/*Mains*/
+.main-index,
+.main-about,
+.main-offer,
+.main-form {
+    padding: 10px;
 }
 
 /*Teaching - to section*/
@@ -316,11 +352,16 @@ hr {
         padding: 0;
     }
 
-    #testimonial>div {
+    /*testing here
+
+ #testimonial>div {
         width: 100%;
         clear: both;
         height: auto;
-        padding: 0 auto;
+        margin: 0 auto;
+    }*/
+    #testimonial div {
+        width: 100%;
     }
 
     #hero-image {
@@ -351,10 +392,10 @@ hr {
 #testimonial div {
     background-color: #a22d59;
     width: 20%;
-    margin-bottom: 30px;
     padding: 20px;
     border: 2px solid #3e4c33;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 #testimonial h3 {
@@ -373,24 +414,15 @@ hr {
 #about {
     height: auto;
 }
-aboutme-hero
+
 #aboutme {
     width: 100%;
-    float: center;
-    line-height: 20px;
-    clear: both;
+    padding: 20px;
     margin-bottom: 50px;
     text-align: center;
-    padding: 20px;
-    font-size: larger;
-}
-
-.aboutphoto {
-    position: center;
-    width: auto;
-    max-width: 500px;
-    max-height: 500px;
-    padding: 2em;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    clear: both;
 }
 
 #aboutme-hero {
@@ -402,13 +434,21 @@ aboutme-hero
     animation-fill-mode: forwards;
 }
 
+.aboutphoto {
+    margin: 0 auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 2em;
+}
+
 #aboutend {
     font-size: xx-large;
     font-weight: bold;
 }
 
 #aboutme:hover {
-    scale: transform scale(1.1);
+    transform: scale(1.1);
 }
 
 /*hero aboutme-hero image zoom*/
@@ -429,7 +469,7 @@ footer {
 
 h4 {
     padding: 1em;
-    font-weight: 300%;
+    font-weight: 300;
 }
 
 .social-media {
@@ -500,7 +540,7 @@ textarea {
 }
 
 .submit {
-    position: block;
+    display: block;
     margin-top: 10px;
     background-color: #fffaeb;
     color: #3e4c33;
@@ -624,16 +664,15 @@ textarea {
         animation-name: none;
     }
 
-     #aboutme-hero {
+    #aboutme-hero {
         height: 250px;
         background: url('../images/herotwos.jpg') no-repeat center center;
-        animation-name: none;}
-    
-     #offer-hero {
-        height: 250px;
-        background: url('../images/herothrees.jpg') no-repeat center center;
-        animation-name: none;}
+        animation-name: none;
     }
 
-
-   
+    #offer-hero {
+        height: 250px;
+        background: url('../images/herothrees.jpg') no-repeat center center;
+        animation-name: none;
+    }
+}
