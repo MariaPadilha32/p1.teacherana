@@ -315,8 +315,8 @@ hr {
     align-items: center;
 }
 
-/*for larger to medium screen size for teaching-to*/
-@media screen and (max-width: 1200px) {
+/*Media queries - for larger to medium screen size for teaching-to and testimonial*/
+@media screen and (max-width: 800px) {
     #teaching-to {
         width: 90%;
         height: auto;
@@ -324,19 +324,32 @@ hr {
     }
 
     #subtitulo {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about,
-    .right-about {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
-        float: left;
-        padding: 5px 10px;
+        text-align: center;
     }
 
     #center-about {
         clear: both;
         width: 100%;
+        height: auto;
         float: left;
         padding: 0;
     }
@@ -348,14 +361,14 @@ hr {
         padding: 0;
     }
 
-    /*testing here
-
- #testimonial>div {
+    #testimonial>div {
         width: 100%;
         clear: both;
         height: auto;
         margin: 0 auto;
-    }*/
+    }
+
+
     #testimonial div {
         width: 100%;
     }
@@ -377,6 +390,7 @@ hr {
 }
 
 /*Testimonial*/
+
 #testimonial {
     height: auto;
     padding: 30px;
@@ -647,24 +661,58 @@ textarea {
     }
 }
 
-/*Hero images for smaller screens*/
+/*Media queries - Hero images for smaller screens*/
 
 @media screen and (max-width: 800px) {
     #hero-image {
         height: 250px;
+        width: 100%;
         background: url('../images/heroones.jpg') no-repeat center center;
         animation-name: none;
     }
 
     #aboutme-hero {
         height: 250px;
+        width: 100%;
         background: url('../images/herotwos.jpg') no-repeat center center;
         animation-name: none;
     }
 
     #offer-hero {
+
         height: 250px;
+        width: 100%;
         background: url('../images/herothrees.jpg') no-repeat center center;
         animation-name: none;
+    }
+
+    #testimonial {
+        /* Remove display: flex and justify-content: space-between; */
+        height: auto;
+        padding: 30px;
+    }
+
+    #testimonial div {
+        background-color: #a22d59;
+        width: 100%;
+        /* Set width to 100% to take up the entire width */
+        padding: 20px;
+        border: 2px solid #3e4c33;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        /* Add margin to create spacing between divs */
+    }
+
+    #testimonial h3 {
+        background-color: #a22d59;
+        color: #fffaeb;
+        margin-bottom: 10px;
+    }
+
+    #testimonial p {
+        background-color: #a22d59;
+        color: #fffaeb;
+        line-height: 1.6;
     }
 }
