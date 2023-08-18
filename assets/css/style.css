@@ -83,7 +83,7 @@ nav {
     transform-origin: top;
     transition: transform 400ms ease-in-out;
     background-color: #3e4c33;
-    border-top: 1px solid #a22d59;
+    border-top: 1px solid #3e4c33;
     padding-top: 10px;
 }
 
@@ -421,6 +421,11 @@ hr {
 }
 
 /*About me*/
+
+h1 {
+    padding: 2em;
+}
+
 #about {
     height: auto;
 }
@@ -667,7 +672,6 @@ textarea {
     #hero-image {
         height: 250px;
         width: 100%;
-        padding: 70px 0 0 0;
         background: url('../images/heroones.jpg') no-repeat center center;
         animation-name: none;
     }

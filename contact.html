@@ -15,16 +15,16 @@
 <body>
     <!-- Logo and Navigation -->
     <header>
-        <a href="index.html"><img src="assets/images/whitelogo.png" alt="logo" style="max-height:70px; max-width: 70px;"
-                class="logo"></a>
+        <a href="index.html"><img src="assets/images/whitelogo.png" alt="Teacher's Ana logo"
+                style="max-height:70px; max-width: 70px;" class="logo"></a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
-            <!--Must amend this nav-->
+            <!--Nav links-->
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="offer.html">Offer</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" aria-label="Navigate to the Home page">Home</a></li>
+                <li><a href="about.html" aria-label="Navigate to the About Me page">About me</a></li>
+                <li><a href="offer.html" aria-label="Navigate to the Offer page">Offer</a></li>
+                <li><a href="contact.html" aria-label="Navigate to the Contact page">Contact</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
@@ -39,12 +39,12 @@
                     </legend>
                     <div class="form-group">
                         <!--Name-->
-                        <label for="name">Name</label>
+                        <label for="name">Name <span aria-hidden="true">*</span></label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <!--Email-->
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email">Email <span aria-hidden="true">*</span></label>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <!--Phone Number-->
@@ -58,7 +58,7 @@
                         <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
                     </div>
                     <!--Submit-->
-                    <div><input class="submit" type="submit" value="Send">
+                    <div><input class="submit" type="submit" value="Send" aria-label="Submit the form">
                     </div>
             </form>
         </section>

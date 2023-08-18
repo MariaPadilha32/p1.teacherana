@@ -15,16 +15,16 @@
 <body>
     <!-- Logo and Navigation -->
     <header>
-        <a href="index.html"><img src="assets/images/whitelogo.png" alt="logo" style="max-height:70px; max-width: 70px;"
-                class="logo"></a>
+        <a href="index.html"><img src="assets/images/whitelogo.png" alt="Teacher's Ana logo"
+                style="max-height:70px; max-width: 70px;" class="logo"></a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
-            <!--Must amend this nav-->
+            <!--Nav links-->
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="offer.html">Offer</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" aria-label="Navigate to the Home page">Home</a></li>
+                <li><a href="about.html" aria-label="Navigate to the About Me page">About me</a></li>
+                <li><a href="offer.html" aria-label="Navigate to the Offer page">Offer</a></li>
+                <li><a href="contact.html" aria-label="Navigate to the Contact page">Contact</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
@@ -35,7 +35,7 @@
         </div>
     </section>
     <!--Main for index teaching to and testimonails-->
-    <main id="main-index">
+    <main id="main-index" role="main">
         <section id="teaching-to">
             <!--Teaching to section-->
             <h1 id="subtitulo">How I can help you:</h1>
@@ -106,10 +106,11 @@
         <!--Five testimonals -->
         <section id="testimonial">
             <br>
+            <!--Testimonail 1-->
             <div>
-                <!--Testimonail 1-->
-                <h3>Teacher Kamilly</h3>
-                <p>"Ana, another incredible content from your mentoring! More valuable knowledge to study and apply! In
+                <h3 id="testimonial-one-heading">Teacher Kamilly</h3>
+                <p id="testimonial-one-content" aria-labelledby="testimonial-one-heading">"Ana, another incredible
+                    content from your mentoring! More valuable knowledge to study and apply! In
                     March, my gross income increased by 50% compared to February! And in April, I achieved my first 10k!
                     No
                     words to
@@ -118,10 +119,11 @@
                     guidance with my
                     eyes closed."</p>
             </div>
+            <!--Testimonail 2-->
             <div>
-                <!--Testimonail 2-->
-                <h3>Teacher Sarah</h3>
-                <p>"We didn't know where to start, and God put you in our path to guide us and take the first steps, the
+                <h3 id="testimonial-two-heading">Teacher Sarah</h3>
+                <p id="testimonial-two-content" aria-labelledby="testimonial-two-heading">"We didn't know where to
+                    start, and God put you in our path to guide us and take the first steps, the
                     famous 'tidying up
                     the house,' and it made ALL the difference! Now, our meetings are done only through video, and we
                     develop classes based
@@ -130,10 +132,11 @@
                     have seen so far
                     with your course and mentoring has already boosted us! Thank you, thank you, thank you!"</p>
             </div>
+            <!--Testimonail 3-->
             <div>
-                <!--Testimonail 3-->
-                <h3> Maria Fernanda, Student</h3>
-                <p>"Teacher Ana was wonderful. You can bring didactics and lightness to the students, even when we
+                <h3 id="testimonial-three-heading"> Maria Fernanda, Student</h3>
+                <p id="testimonial-three-content" aria-labelledby="testimonial-three-heading">"Teacher Ana was
+                    wonderful. You can bring didactics and lightness to the students, even when we
                     are
                     just
                     starting. I see
@@ -145,24 +148,26 @@
                     everything! This
                     experience was incredible. May there be even more to come."</p>
             </div>
+            <!--Testimonail 4-->
             <div>
-                <!--Testimonail 4-->
-                <h3>Teacher Ricardo</h3>
-                <p>"The masterclass is helping me waste less time in planning and organize the lessons better.
+                <h3 id="testimonial-four-heading">Teacher Ricardo</h3>
+                <p id="testimonial-four-content" aria-labelledby="testimonial-three-heading">"The masterclass is helping
+                    me waste less time in planning and organize the lessons better.
                     Gratitude!
                     Whenever I can, I
                     binge-watch your Youtube channel, so much good information! Thank you."</p>
             </div>
+            <!--Testimonail 5-->
             <div>
-                <!--Testimonail 5-->
-                <h3>Teacher Joao</h3>
-                <p>"I began following due to engaging content. Your pricing Live event caught my attention,
-                    particularly
-                    the VHS method. Your confidence in pricing intrigued me. Despite initial doubts about pricing in
-                    my
-                    city, your prompt response during the Live session was an eye-opener. I realized the importance
-                    of
-                    valuing quality over quantity."
+                <h3 id="testimonial-five-heading">Teacher Joao</h3>
+                <p id="testimonial-five-content" aria-labelledby="testimonial-five-heading"></p>>"I began following due
+                to engaging content. Your pricing Live event caught my attention,
+                particularly
+                the VHS method. Your confidence in pricing intrigued me. Despite initial doubts about pricing in
+                my
+                city, your prompt response during the Live session was an eye-opener. I realized the importance
+                of
+                valuing quality over quantity."
                 </p>
             </div>
         </section>
