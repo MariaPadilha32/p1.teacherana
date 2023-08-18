@@ -632,18 +632,15 @@ textarea {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    flex-direction: row;
 }
 
 .offer-type {
     flex: 1;
 }
 
-.offer-image {
-    flex: 1;
-}
-
-.offer-image img {
-    max-width: 100%;
+.offerphoto {
+    float: right;
 }
 
 #offer-hero {
@@ -739,6 +736,25 @@ textarea {
 
     .offer-type {
         margin-left: 20px;
+    }
+
+    .submit {
+        display: block;
+        float: right;
+    }
+
+    .offer-container {
+        flex-direction: column;
+    }
+
+    .offer-type {
+        order: 2;
+    }
+
+    .offerphoto {
+        max-width: 100%;
+        max-height: auto;
+        float: none;
     }
 
 }
