@@ -667,6 +667,7 @@ textarea {
     #hero-image {
         height: 250px;
         width: 100%;
+        padding: 70px 0 0 0;
         background: url('../images/heroones.jpg') no-repeat center center;
         animation-name: none;
     }
@@ -686,8 +687,11 @@ textarea {
         animation-name: none;
     }
 
+    .logo {
+        display: none;
+    }
+
     #testimonial {
-        /* Remove display: flex and justify-content: space-between; */
         height: auto;
         padding: 30px;
     }
@@ -715,4 +719,22 @@ textarea {
         color: #fffaeb;
         line-height: 1.6;
     }
+
+    .offer-container {
+        flex-direction: row;
+        /* Revert to row layout on larger screens */
+    }
+
+    .offer-content {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+
+    .offer-type {
+        margin-left: 20px;
+    }
+
 }
