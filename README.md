@@ -74,7 +74,7 @@ All pages have offers an easy access to social medias.
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Captura de tela 2023-08-20 194041](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
 
 - __The Sign Up Page__
 
