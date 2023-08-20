@@ -60,7 +60,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
   The client personally selected a set of colors that match her brand's identity. These colors were chosen to make the website look attractive and aligned with her brand. By combining these colors, the website offers a consistent and pleasant visual experience for visitors. Each color was carefully picked to represent different parts of the site and evoke specific feelings. The three colors used are: #fffaeb, #3e4c3f, and #a22d59. This thoughtful choice of colors not only makes the website look good but also helps users easily explore and understand the content.
 
 ### Typographia
-  There are two fonts used in the website and they are imported from Google Fonts. For the main body of the texts, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
+  The used fonts, 'Montserrat, sans-serif;' were carefully chosen by Ana in alignment with our well-established brand. These fonts not only contribute to the brand's visual identity but also prioritize ease of readability and comprehension, ensuring that the content is easily accessible and user-friendly.
 
 ## Features 
 
@@ -140,9 +140,19 @@ All pages have offers an easy access to social medias.
 
 - escreverrrrrrrr
 
-##Technologies Used:
-
-
+## Technologies Used:
+- The website was created with HTML.
+- CSS was used to add styling to the website.
+- Gitpod was used to create, edit and preview the codes.
+- Git was used for version control and tracked changes in the codes.
+- GitHub was used to store the codes and deploy the website.
+- Chrome Dev Tools were used extensively while adjusting the objects in the website for different screen sizes.
+- The website was fully validated using W3C HTML Validator and W3C CSS Validator.
+- Balsamiq was used to generate wireframes.
+- Am I responsive? was used to generate the mockup image showing the website on various screen sizes.
+- The fonts used in the website are imported from Google Fonts.
+- The website uses icons from Font Awesome.
+******* Need to add the links**********
 
 ## Testing 
 
