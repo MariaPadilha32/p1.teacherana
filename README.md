@@ -4,7 +4,7 @@
 
  The website is targeted to teachers that feel the need to improve their career while working less hours, Teacher Ana's website stands as a beacon of support. Through her very active social media, she has already touched the lives of thousands by offering invaluable tips for improvement. Now, Ana extends a roadmap for fellow teachers to achieve the same balance. Join her journey in transforming your teaching career into a thriving business. Together, we'll change the lives of educators and students, one empowered step at a time.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Captura de tela 2023-08-20 194041](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
 
 ## Features 
 
@@ -73,8 +73,6 @@ All pages have offers an easy access to social medias.
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Captura de tela 2023-08-20 194041](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
 
 - __The Sign Up Page__
 
