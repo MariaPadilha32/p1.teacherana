@@ -6,18 +6,75 @@
 
 ![Captura de tela 2023-08-20 194041](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
 
+## Live Website
+
+[Teacher Ana](https://mariapadilha32.github.io/p1.teacherana/index.html)
+
+##Repository
+
+https://github.com/MariaPadilha32/p1.teacherana
+
+## UX: User experience
+
+### When I use the website:
+
+  - I want an website that I am able to navigate easily.
+  - I want the website to be visually appealing and make me feel confident about hiring the mentor.
+  - I want to see how my own story and career goals connect with what is on the website.
+  - I want to learn more about teacher Ana and easily find her social media.
+  - I want to know the details about the different services I can choose from, based on what I need.
+  - I want to be able to send questions, comments or feedbacks.
+
+  ### Initial concept
+  
+ The initial idea was to develop a website that would encourage individuals, particularly language teachers and those who teach online, to find balance between their professional commitments and other aspects of their lives like family, friends, and hobbies. This platform is designed for people seeking harmony between work and personal happiness.
+
+  The website aims to provide information for teachers who want to create a fulfilling career while also enjoying a well-rounded life. Through the offerings, teachers will learn how to gain insights into effective time management, self-care practices, and methods to find fulfillment in their teaching journey and beyond.
+
+  ### Wireframes
+
+  Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=EAIaIQobChMIsf3JpIvsgAMVAwQGAB1yVA5zEAAYAiAAEgKVmPD_BwE) to visualise the structure of the website. The pictures below show the initial ideas for the website's wireframes, as the website was built, changes were made to improve its user-friendliness and quality, while still keeping the main structure intact.
+
+  Index.html
+![Captura de tela 2023-08-20 200351](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/819f330a-58a0-47ab-b5d5-224ca9bd408e)
+
+ About.html
+ ![Captura de tela 2023-08-20 200704](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/03499ba7-8dc7-4171-acd7-0ef55378ba28)
+
+Offer.html
+![Captura de tela 2023-08-20 200730](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/67269948-0f75-4094-a97d-bce241dd9330)
+
+Contact.html
+![Captura de tela 2023-08-20 200749](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/31e3dc7d-84bc-4b1f-8926-15e84ed34f14)
+
+Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank you message.
+
+### Imagery
+
+  The images are carefully chosen to make the used connect to teacher Ana. They are beautiful images that teacher Ana already used on her social medias.
+
+  Detailed alt attribute is included for each image to describe the image. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
+
+### Color Scheme
+
+  The client personally selected a set of colors that match her brand's identity. These colors were chosen to make the website look attractive and aligned with her brand. By combining these colors, the website offers a consistent and pleasant visual experience for visitors. Each color was carefully picked to represent different parts of the site and evoke specific feelings. The three colors used are: #fffaeb, #3e4c3f, and #a22d59. This thoughtful choice of colors not only makes the website look good but also helps users easily explore and understand the content.
+
+### Typographia
+  There are two fonts used in the website and they are imported from Google Fonts. For the main body of the texts, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
+
 ## Features 
 
   In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. Our website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information o each page:
 
-Main page: On the first page, you'll first learn how Teacher Ana can help you improve you business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
-
+Main page: On the first page, you'll first learn how Teacher Ana can help you improve your business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
 
 About Me: The second page provides a more in-depth insight into the identity of Teacher Ana, her motivations for innovating her teaching methods, and the reasons for creating the VHS method.
 
 Offers: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
 
-Connect with Ana: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
+Contact: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
+
+Thank you: Once the form is submited the user will have a friendly message that assure the user they will be contacted soon.
 
 All pages have offers an easy access to social medias.
 
@@ -63,30 +120,29 @@ All pages have offers an easy access to social medias.
 
   - The footer section features direct links to Teacher Ana's Instagram, Youtube Channel and Whatsapp. Clicking on these links will open a new tab for convenient navigation.
     
-  - Additionally, the footer includes the logo image, which acts as a link. Clicking on it will take the user back to the top of the home page.
- 
   - Teacher Ana operates her business entirely online from her home. For safety and privacy reasons, her address is not disclosed. However, users can easily contact her through WhatsApp. 
 
 ******** ADD PHOTO **************
 
 - __About Me__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  escreverrrrrrrr
 
-- __The Sign Up Page__
+- __Contact me__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+ escreveerrrrrrrr
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+ -__Thank you__
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+ escreverrrrrrrr
+ 
+### Future Features
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- escreverrrrrrrr
 
-### Features Left to Implement
+##Technologies Used:
 
-- Another feature idea
+
 
 ## Testing 
 
