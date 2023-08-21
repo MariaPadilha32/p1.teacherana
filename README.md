@@ -141,19 +141,19 @@ All pages have offers an easy access to social medias.
 - escreverrrrrrrr
 
 ## Technologies Used:
-- The website was created with HTML.
-- CSS was used to add styling to the website.
-- Gitpod was used to create, edit and preview the codes.
-- Git was used for version control and tracked changes in the codes.
-- GitHub was used to store the codes and deploy the website.
-- Chrome Dev Tools were used extensively while adjusting the objects in the website for different screen sizes.
-- The website was fully validated using W3C HTML Validator and W3C CSS Validator.
-- Balsamiq was used to generate wireframes.
-- Am I responsive? was used to generate the mockup image showing the website on various screen sizes.
-- The fonts used in the website are imported from Google Fonts.
-- The website uses icons from Font Awesome.
-******* Need to add the links**********
 
+- The website was created with [HTML](https://html.spec.whatwg.org/).
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
+- [Codeanywhere](https://codeanywhere.com/) was used to create, edit and preview the codes.
+- [GitHub](https://github.com/) was used to store the codes and deploy the website.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes.
+- The website was fully validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- [Balsamiq](https://balsamiq.com/) was used to generate wireframes.
+- [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
+- The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
+- The website uses icons from [Font Awesome](https://fontawesome.com/).
+- The images were created used [Canvas](https://www.canva.com/en_gb/).
+- 
 ## Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
