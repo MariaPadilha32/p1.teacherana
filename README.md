@@ -64,9 +64,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
   The client personally selected a set of colors that match her brand's identity. These colors were chosen to make the website look attractive and aligned with her brand. By combining these colors, the website offers a consistent and pleasant visual experience for visitors. Each color was carefully picked to represent different parts of the site and evoke specific feelings. The three colors used are: #fffaeb, #3e4c3f, and #a22d59. This thoughtful choice of colors not only makes the website look good but also helps users easily explore and understand the content. Here is how the colorsused might generally make a person feel:
 
 - #fffaeb (Peach): This color is a warm and soft shade of orange. It often evokes feelings of warmth, comfort, and friendliness. Peach can also bring to mind feelings of innocence and sweetness, making it a soothing and inviting color.
-
 - #3e4c3f (Dark Green): Dark green is associated with nature, growth, and stability. It can make a person feel grounded, calm, and connected to the natural world. It often conveys a sense of balance and harmony and can be relaxing to look at.
-
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
 
 
@@ -77,15 +75,11 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 
   In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. The website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information o each page:
 
- - Main page: On the first page, you'll first learn how Teacher Ana can help you improve your business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
-
+- Main page: On the first page, you'll first learn how Teacher Ana can help you improve your business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
 - About Me: The second page provides a more in-depth insight into the identity of Teacher Ana, her motivations for innovating her teaching methods, and the reasons for creating the VHS method.
-
- - Offers: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
-
- - Contact: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
-
- - Thank you: Once the form is submited the user will have a friendly message that assure the user they will be contacted soon.
+- Offers: Discover the various mentoring packages available to revolutionize your teaching career. Each package offers a condensed yet comprehensive glimpse into the art of balancing professional growth and personal life. Let Teacher Ana guide you towards success.
+- Contact: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
+- Thank you: Once the form is submited the user will have a friendly message that assure the user they will be contacted soon.
 
 All pages have offers an easy access to social medias.
 
@@ -94,11 +88,9 @@ All pages have offers an easy access to social medias.
 - __Navigation Bar__
 
   - Present on all four pages, the fully responsive navigation bar comprises links to Home, About Me, Services, and Contact. Its consistency across every page for an easy navigation. This feature enables users to seamlessly move between pages across all devices, eliminating the need to rely on the browser's 'back' button.
- 
   - The navigation bar also incorporates the motto, allowing users to swiftly underestand the website's purpose.
-  
   - Additionally, on smaller devices, the navigation bar transforms into a user-friendly dropdown menu, simplifying page selection.
-  - 
+    
       Screens bigger than 800px
     
 ![Nav Bar](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d4a72f1c-763f-4557-94f6-ed00afe9a5b4)
@@ -110,7 +102,6 @@ All pages have offers an easy access to social medias.
 - __The Hero Image__
 
   - The landing page, about me page, and offer page features a customized image crafted through Canvas, tailored to the client's preferences. The images serves as a versatile asset that can be utilized across her various social media platforms. It incorporates colors, fonts, and intricate details that align with her brand identity.
-    
   -  It's made extra interesting with a special zooming effect that quickly grabs your attention (for screens equal or bigger than 800px).
   
    Index.html Screens equal or bigger than 801px
@@ -121,18 +112,19 @@ All pages have offers an easy access to social medias.
   
   ![Hero image for small screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b8aa1860-fc12-49a6-952e-9c6c35338d65)
 
-  About.html Screens equal or bigger than 801px
+    About.html Screens equal or bigger than 801px
+  
   ![About me Hero image for bigger screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/5d7702fd-21d6-47f0-83a8-826d99bcfbe5)
 
-  About.html Screen from an Iphone 12Pro
+    About.html Screen from an Iphone 12Pro
   
   ![About me Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1f13db1c-00f8-42d8-85bc-b95fb2f979a9)
 
-  Offer.html Screen equal or bigger than 801px
+    Offer.html Screen equal or bigger than 801px
   
   ![Offer Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c73e2cba-9b46-436d-a2d1-7432f39f8518)
 
-  Offer.html Screen from an Iphone 12Pro
+    Offer.html Screen from an Iphone 12Pro
   
   ![Offer Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1ff67437-219f-4ae4-910c-de485fd5a1e0)
 
@@ -143,11 +135,11 @@ All pages have offers an easy access to social medias.
   - The goal is to make user curious and interested in learning more about what Teacher Ana can offer. This should motivate the user to explore the website.
   - This section also includes a subtle animation where each phase slightly enlarges when hovered over with the cursor.
 
-Teaching-to section on biger screens
+  Teaching-to section on biger screens
 
 ![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/19e93362-c66e-4bd4-b7a2-d47c706a9cd9)
 
-Teaching-to section on smaller screens
+  Teaching-to section on smaller screens
 
 ![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/3904bfee-145b-4b5f-8e6c-f20add7e4e67)
 ![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/16caa1df-46b5-4bdb-8ed2-cf7b0cedf66c)
@@ -155,23 +147,40 @@ Teaching-to section on smaller screens
 
 - __Testimonails__
 
+  - "Testimonial section" is inspired on Meetup Times from Love Running, used the same structure with the necessary changes to fit the new project.
   - In this section, you'll find heartfelt testimonials from students and some people who were mentored by Teacher Ana. They share how her work has positively impacted their lives.
-    
   - While the testimonials are authentic, the names have been altered to ensure privacy. However, you can also find the same testimonials on social media. 
 
-************** ADD PHOTOS OF TESTIMONIALS *******************************
+  Testimonials section on biger screens
+  
+![Testimonials](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/11e65ce4-20de-41d6-ade5-0fa5844124bb)
+
+  Testimonnials section on smaller screens
+  
+![Testimonial](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6a0a1259-3d9f-4a75-9ee3-12d9ee5b1f82)
+![Testimonial](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/add19600-3725-48e7-b78e-6995c1aa24cf)
 
 - __The Footer__ 
 
   - The footer section features direct links to Teacher Ana's Instagram, Youtube Channel and Whatsapp. Clicking on these links will open a new tab for convenient navigation.
-    
-  - Teacher Ana operates her business entirely online from her home. For safety and privacy reasons, her address is not disclosed. However, users can easily contact her through WhatsApp. 
+  - Teacher Ana operates her business entirely online from her home. For safety and privacy reasons, her address is not disclosed. However, users can easily contact her through WhatsApp.
+  - The footer, as the navigation bar is the same in all the pages.
+ 
+  Footer on biger screens
+  
+![Footer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/0f3a9a29-79fc-4b92-a846-9154564ffc6b)
 
-******** ADD PHOTO **************
+  Footer on smaller screens
+  
+![Footer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b661537e-6d72-4236-93b9-50cb1a19f9ce)
 
 - __About Me__
 
   escreverrrrrrrr
+
+-__Offer__
+
+
 
 - __Contact me__
 
