@@ -63,10 +63,12 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 
   The client personally selected a set of colors that match her brand's identity. These colors were chosen to make the website look attractive and aligned with her brand. By combining these colors, the website offers a consistent and pleasant visual experience for visitors. Each color was carefully picked to represent different parts of the site and evoke specific feelings. The three colors used are: #fffaeb, #3e4c3f, and #a22d59. This thoughtful choice of colors not only makes the website look good but also helps users easily explore and understand the content. Here is how the colorsused might generally make a person feel:
 
-- #fffaeb (Peach): This color is a warm and soft shade of orange. It often evokes feelings of warmth, comfort, and friendliness. Peach can also bring to mind feelings of innocence and sweetness, making it a soothing and inviting color. ![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
-- #3e4c33 (Dark Green):  Dark green is linked with nature, progress, and steadiness. It has the ability to provide a person with a sense of being grounded, tranquil, and in touch with the outdoors. It frequently communicates feelings of equilibrium and agreement, and can have a soothing effect when observed. ![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
+- #fffaeb (Peach): This color is a warm and soft shade of orange. It often evokes feelings of warmth, comfort, and friendliness. Peach can also bring to mind feelings of innocence and sweetness, making it a soothing and inviting color.
+   ![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
+- #3e4c33 (Dark Green):  Dark green is linked with nature, progress, and steadiness. It has the ability to provide a person with a sense of being grounded, tranquil, and in touch with the outdoors. It frequently communicates feelings of equilibrium and agreement, and can have a soothing effect when observed.
+   ![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
-![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cfa)
+  ![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cfa)
 
 
 ### Typographia
@@ -177,11 +179,10 @@ All pages have offers an easy access to social medias.
 ![Footer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b661537e-6d72-4236-93b9-50cb1a19f9ce)
 
 - __About Me__
-
-  -
-  -
-  -
-  -
+  
+  - "About me" is a section where you can learn more about the journey that has led to the creation of the "Teacher Ana de Araujo" brand.
+  - This page is divided into five paragraphs and four pictures, each accompanied by relevant images that visually supplement the story.s. 
+  - The conclusion invites the reader with a direct link provided that guide the users to explore the comprehensive range of offerings on the dedicated "Offer" page.
 
   About Me on bigger screens
   
@@ -193,53 +194,58 @@ All pages have offers an easy access to social medias.
 
 -__Offer__
 
- -
- -
- -
- -
-
+ - This section contains three different type of offer that will fulfill the user needs.
+ - Every offer is thoroughly detailed, providing all necessary information.
+ - All offers contains a link that will bring the uset to "Contact" page so they can message Teacher Ana and learn more about what they are interested on.
+ 
  Offer on bigger screens
------
+ 
+![Captura de tela 2023-08-21 233912](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d6a66c0e-0c3c-4ee1-a68b-bc533b79b20a)
+
 
  Offer on smaller screens
- ------
+ 
+![Captura de tela 2023-08-21 233942](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d820474c-f7ed-44e3-9860-df5a67d8117f)
+![Captura de tela 2023-08-21 234000](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/52345a68-e032-45a6-8632-813392f94673)
+
 
 - __Contact me__
 
- -
- -
- -
- -
+ - The Contact page provides a straightforward and user-friendly form for individuals to connect with Teacher Ana.
+ - The form captures essential information, including mandatory fields such as name, email, and message.
+ - The interface ensures ease of understanding and seamless interaction.
 
  Contact on bigger screens
------
+ 
+![Captura de tela 2023-08-21 235355](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e4732a86-4d1f-4843-8619-623a1bc3eaca)
 
  Contact on smaller screens
- ------
- 
+
+ ![Captura de tela 2023-08-21 235328](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/9be606b5-bc9c-4245-9425-99424a338237)
+
 
  -__Thank you__
 
- -
- -
- -
- -
+- The hank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
+- This page efficiently acknowledges users' messages, ensuring they are aware of the reception and anticipating forthcoming communication.
 
 Thank you on bigger screens
------
+
+![Captura de tela 2023-08-21 235551](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1c605a5b-67c0-4d14-b0fc-73ddadc55c15)
 
 Thank you on smaller screens
- ------
  
+![Captura de tela 2023-08-21 235602](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bb34f48a-1f71-4db7-8a67-613267fd8fa0)
+
 ### Future Features
 
--
--
--
--
--
--
+As we strive to enhance the website's functionality and user experience, it would be considered for future features:
 
+    -Bilingual Support
+      Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
+
+    -Streamlined Offer Purchase
+      To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
 
 ## Technologies Used:
 
@@ -313,11 +319,13 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used were provided by Teacher Ana.
+- The images used for the hero images were created on Canvas.
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+## Codes
+- The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA).
+- The Hero Images, Teaching to, Testimonals were inspired by The Love Running project.
+- For the website responsiveness was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU) and Love Running. 
 
 ## Other General Project Advice
 
