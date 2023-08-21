@@ -459,6 +459,14 @@ h1 {
     font-weight: bold;
 }
 
+#aboutfour-image,
+#aboutseven-description,
+#aboutthree-image,
+#abouttwo-description {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /*hero aboutme-hero image zoom*/
 @keyframes hero-zoom {
     from {
@@ -714,6 +722,15 @@ textarea {
         line-height: 1.6;
     }
 
+    .aboutphoto {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    #aboutme {
+        text-align: left;
+    }
+
     .offer-container {
         flex-direction: row;
         align-items: flex-start;
@@ -721,14 +738,6 @@ textarea {
         padding: 5px;
         margin-bottom: 0;
     }
-
-    /*.offer-content {
-        flex-direction: row;
-        align-items: flex-start;
-        text-align: left;
-        padding: 10px;
-        margin-bottom: 0;
-    }*/
 
     .offer-type {
         width: 100%;
@@ -747,7 +756,7 @@ textarea {
 
     .offerphoto {
         max-width: 100%;
-        max-height: auto;
+        max-height: 350px;
         float: none;
     }
 
