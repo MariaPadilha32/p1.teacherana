@@ -279,15 +279,24 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+__Deploying a GitHub Repository to GitHub Pages__
+  1) Go to the "Settings" tab in your GitHub repository.
+  2) Choose "Pages" on the left-hand menu.
+  3) Under the "Source" section, pick "Deploy from a branch" and select "Branch: main." Save your choice.
+  4) GitHub will take a short time to publish the website. If it doesn't happen automatically, refresh the page. Once deployed, you'll see the URL.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+__Forking the GitHub Repository__
+  To make a copy or "fork" the original repository to view or make changes without affecting the original repository,
+  1) Log into GitHub and locate the repository.
+  2) Select the "Fork" option at the top of the screen to create a copy of the repository.
+  3) This will create a copy of the repository in your GitHub account.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+__Creating a Local Clone__
+  1) Inside the GitHub repository, click on the "Code" button.
+  2) In the "Clone" section, under the "HTTPS" tab, click the copy icon to copy the URL.
+  3) In Gitpod, change your current location to where you want the cloned folder.
+  4) Type "git clone," then paste the URL from GitHub.
+  5) Hit "Enter" to create the local copy.
 
 ## Credits 
 
