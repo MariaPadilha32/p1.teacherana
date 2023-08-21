@@ -64,12 +64,11 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
   The client personally selected a set of colors that match her brand's identity. These colors were chosen to make the website look attractive and aligned with her brand. By combining these colors, the website offers a consistent and pleasant visual experience for visitors. Each color was carefully picked to represent different parts of the site and evoke specific feelings. The three colors used are: #fffaeb, #3e4c3f, and #a22d59. This thoughtful choice of colors not only makes the website look good but also helps users easily explore and understand the content. Here is how the colorsused might generally make a person feel:
 
 - #fffaeb (Peach): This color is a warm and soft shade of orange. It often evokes feelings of warmth, comfort, and friendliness. Peach can also bring to mind feelings of innocence and sweetness, making it a soothing and inviting color.
-   ![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
 - #3e4c33 (Dark Green):  Dark green is linked with nature, progress, and steadiness. It has the ability to provide a person with a sense of being grounded, tranquil, and in touch with the outdoors. It frequently communicates feelings of equilibrium and agreement, and can have a soothing effect when observed.
-   ![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
-  ![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cfa)
-
+![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
+![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cf)
+![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
 
 ### Typographia
   The used fonts, 'Montserrat, sans-serif;' were carefully chosen by Ana in alignment with her well-established brand. These fonts not only contribute to the brand's visual identity but also prioritize ease of readability and comprehension, ensuring that the content is easily accessible and user-friendly.
