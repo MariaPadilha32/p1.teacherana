@@ -36,15 +36,19 @@ https://github.com/MariaPadilha32/p1.teacherana
   Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=EAIaIQobChMIsf3JpIvsgAMVAwQGAB1yVA5zEAAYAiAAEgKVmPD_BwE) to visualise the structure of the website. The pictures below show the initial ideas for the website's wireframes, as the website was built, changes were made to improve its user-friendliness and quality, while still keeping the main structure intact.
 
   Index.html
+  
 ![Captura de tela 2023-08-20 200351](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/819f330a-58a0-47ab-b5d5-224ca9bd408e)
 
  About.html
+ 
  ![Captura de tela 2023-08-20 200704](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/03499ba7-8dc7-4171-acd7-0ef55378ba28)
 
 Offer.html
+
 ![Captura de tela 2023-08-20 200730](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/67269948-0f75-4094-a97d-bce241dd9330)
 
 Contact.html
+
 ![Captura de tela 2023-08-20 200749](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/31e3dc7d-84bc-4b1f-8926-15e84ed34f14)
 
 Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank you message.
@@ -94,10 +98,13 @@ All pages have offers an easy access to social medias.
   - The navigation bar also incorporates the motto, allowing users to swiftly underestand the website's purpose.
   
   - Additionally, on smaller devices, the navigation bar transforms into a user-friendly dropdown menu, simplifying page selection.
-      Screens bigger than 800px 
+  - 
+      Screens bigger than 800px
+    
 ![Nav Bar](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d4a72f1c-763f-4557-94f6-ed00afe9a5b4)
       
       Screen smaller than 799px
+      
 ![Nav bar small screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a18afd13-a543-4203-834e-5c447f92cc63)
 
 - __The Hero Image__
@@ -107,32 +114,44 @@ All pages have offers an easy access to social medias.
   -  It's made extra interesting with a special zooming effect that quickly grabs your attention (for screens equal or bigger than 800px).
   
    Index.html Screens equal or bigger than 801px
+  
   ![Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/de24f6f3-1bb7-4003-865f-640f60e73749)
 
    Index.html Screen equal or smaller than 800px
+  
   ![Hero image for small screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b8aa1860-fc12-49a6-952e-9c6c35338d65)
 
   About.html Screens equal or bigger than 801px
   ![About me Hero image for bigger screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/5d7702fd-21d6-47f0-83a8-826d99bcfbe5)
 
   About.html Screen from an Iphone 12Pro
+  
   ![About me Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1f13db1c-00f8-42d8-85bc-b95fb2f979a9)
 
   Offer.html Screen equal or bigger than 801px
+  
   ![Offer Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c73e2cba-9b46-436d-a2d1-7432f39f8518)
 
   Offer.html Screen from an Iphone 12Pro
+  
   ![Offer Hero image](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1ff67437-219f-4ae4-910c-de485fd5a1e0)
 
 - __"Teaching to" Section__
 
+  - "Teaching to" is inspired on Ethos from Love Running, used the same structure with the necessary changes to fit the new project. 
   - The 'Teaching For You' section summarizes how the mentor can enhance the user's working life with direct points.
-  - 
   - The goal is to make user curious and interested in learning more about what Teacher Ana can offer. This should motivate the user to explore the website.
-  - 
   - This section also includes a subtle animation where each phase slightly enlarges when hovered over with the cursor.
 
-******************** ADD PHOTO OF THE TEACHING TO SECTION ****************************
+Teaching-to section on biger screens
+
+![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/19e93362-c66e-4bd4-b7a2-d47c706a9cd9)
+
+Teaching-to section on smaller screens
+
+![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/3904bfee-145b-4b5f-8e6c-f20add7e4e67)
+![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/16caa1df-46b5-4bdb-8ed2-cf7b0cedf66c)
+![Teaching to Section](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/0992a2fe-f74b-4ee9-81bd-16bb92c5105c)
 
 - __Testimonails__
 
