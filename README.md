@@ -153,7 +153,8 @@ All pages have offers an easy access to social medias.
 
   Testimonials section on biger screens
   
-![Testimonials](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/11e65ce4-20de-41d6-ade5-0fa5844124bb)
+![Testimonial](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/969280f3-4dc3-4a3e-9858-f982f16400f4)
+
 
   Testimonnials section on smaller screens
   
@@ -166,7 +167,7 @@ All pages have offers an easy access to social medias.
   - Teacher Ana operates her business entirely online from her home. For safety and privacy reasons, her address is not disclosed. However, users can easily contact her through WhatsApp.
   - The footer, as the navigation bar is the same in all the pages.
  
-  Footer on biger screens
+  Footer on bigger screens
   
 ![Footer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/0f3a9a29-79fc-4b92-a846-9154564ffc6b)
 
@@ -176,23 +177,68 @@ All pages have offers an easy access to social medias.
 
 - __About Me__
 
-  escreverrrrrrrr
+  -
+  -
+  -
+  -
+
+  About Me on bigger screens
+  
+![ABout me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6e9a3b6f-d3d2-47d6-ae46-02fa4871926a)
+
+  About me on smaller screens
+
+![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d151ac54-0b01-47fd-9100-a71433748378)
 
 -__Offer__
 
+ -
+ -
+ -
+ -
 
+ Offer on bigger screens
+-----
+
+ Offer on smaller screens
+ ------
 
 - __Contact me__
 
- escreveerrrrrrrr
+ -
+ -
+ -
+ -
+
+ Contact on bigger screens
+-----
+
+ Contact on smaller screens
+ ------
+ 
 
  -__Thank you__
 
- escreverrrrrrrr
+ -
+ -
+ -
+ -
+
+Thank you on bigger screens
+-----
+
+Thank you on smaller screens
+ ------
  
 ### Future Features
 
-- escreverrrrrrrr
+-
+-
+-
+-
+-
+-
+
 
 ## Technologies Used:
 
