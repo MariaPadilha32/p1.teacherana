@@ -202,11 +202,10 @@ nav a:hover {
 }
 
 /*Mains*/
-.main-index,
 .main-about,
 .main-offer,
 .main-form {
-    padding: 10px;
+    padding: 0;
 }
 
 /*Teaching - to section*/
@@ -459,12 +458,12 @@ h1 {
     font-weight: bold;
 }
 
-#aboutfour-image,
+#aboutfour-description,
 #aboutseven-description,
-#aboutthree-image,
+#aboutthree-description,
 #abouttwo-description {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /*hero aboutme-hero image zoom*/
@@ -729,6 +728,14 @@ textarea {
 
     #aboutme {
         text-align: left;
+    }
+
+    #aboutfour-description,
+    #aboutseven-description,
+    #aboutthree-description,
+    #abouttwo-description {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .offer-container {

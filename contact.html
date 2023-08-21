@@ -32,7 +32,7 @@
     <!--main for contact-->
     <main id="main-form">
         <!--Form group-->
-        <section id="form-group">
+        <div id="form-group">
             <form action="thankyou.html" method="get">
                 <fieldset>
                     <legend> Contact me! I will be happy to hear from you! <i class="fa-regular fa-envelope"></i>
@@ -57,8 +57,9 @@
                     <br>
                     <!--Text area-->
                     <div class="form-group">
-                        <label for="question_comment">Any question or comment? Let me know</label>
-                        <textarea id="question_comment" name="question_comment" rows="5" cols="80"></textarea>
+                        <label for="question_comment">Any question or comment? Let me know <span
+                                aria-hidden="true">*</span></label>
+                        <textarea id="question_comment" name="question_comment" rows="5" cols="80" required></textarea>
                     </div>
                     <br>
                     <!--Submit-->
@@ -66,7 +67,7 @@
                     </div>
                 </fieldset>
             </form>
-        </section>
+        </div>
         <br>
     </main>
     <!-- Footer Section -->
