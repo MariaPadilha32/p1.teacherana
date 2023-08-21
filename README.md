@@ -10,7 +10,7 @@
 
 [Teacher Ana](https://mariapadilha32.github.io/p1.teacherana/index.html)
 
-##Repository
+## Repository
 
 https://github.com/MariaPadilha32/p1.teacherana
 
