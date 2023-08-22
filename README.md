@@ -68,7 +68,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
   
 ![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
-![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cf)
+![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bc749157-92af-4936-b191-d2e7cf09f4ad)
 ![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
 
 ### Typographia
@@ -95,11 +95,9 @@ All pages have offers an easy access to social medias.
   - Additionally, on smaller devices, the navigation bar transforms into a user-friendly dropdown menu, simplifying page selection.
     
       Screens bigger than 800px
-    
 ![Nav Bar](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d4a72f1c-763f-4557-94f6-ed00afe9a5b4)
       
       Screen smaller than 799px
-      
 ![Nav bar small screens](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a18afd13-a543-4203-834e-5c447f92cc63)
 
 - __The Hero Image__
@@ -226,7 +224,7 @@ All pages have offers an easy access to social medias.
 
  -__Thank you__
 
-- The hank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
+- The thank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
 - This page efficiently acknowledges users' messages, ensuring they are aware of the reception and anticipating forthcoming communication.
 
 Thank you on bigger screens
@@ -366,9 +364,13 @@ Thankyou.html
 
   
 
-### Unfixed Bugs
+### Unfixed Bugs and Known Issues
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  Despite my efforts to create a seamless user experience, a few unresolved bugs and known issues exist within the project. Here, the outline of these issues transparently:
+
+- Navigation Bar Layout: One of the most prominent unresolved issues involves the navigation bar's responsive layout. While the ideal implementation was to shift the navigation bar to the left side and relocate the logo to the right side on smaller screens, I encountered challenges in achieving this behavior. Consequently, as a temporary solution, I have temporarily removed the logo from the navigation bar. I will continue to explore options to address this layout inconsistency and improve the user interface.
+
+- "Commit Changes" Without Comments: An identified known issue pertains to the lack of comments when making commits to the repository's readme.md file. This happened due to an oversight and a lack of awareness regarding the importance of providing meaningful comments during commits. Although I rectified this issue in later commits, it is acknowledged that prior commits do not include comprehensive comments. Going forward, I am committed to maintaining clear and informative commit messages to facilitate transparency and collaboration.
 
 ## Deployment
 
@@ -393,26 +395,26 @@ __Creating a Local Clone__
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- The content for Home page and About me were provided in Portuguese by Teacher Ana and translated using Chat GPT. The same content is used as her presentation on her social media.
+- The content used on Offer were provided by Teacher Ana from past projects.
+- README.md was inspired by [ShizukaDonaghue](https://github.com/ShizukaDonaghue/serene-meditation/blob/main/README.md#brower-compatibility)
 
 ### Media
 
 - The photos used were provided by Teacher Ana.
 - The images used for the hero images were created on Canvas.
 
-## Codes
+### Codes
+
 - The responsive navigation bar was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA).
 - The Hero Images, Teaching to, Testimonals were inspired by The Love Running project.
-- For the website responsiveness was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU) and Love Running. 
+- For the website responsiveness was inspired by YouTube tutorial by [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU) and Love Running.
+
+### Special Thanks
+
+- I would like to extend my gratitude to Teacher Ana, besides 
 
 ## Other General Project Advice
 
