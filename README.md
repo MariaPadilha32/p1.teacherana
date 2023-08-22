@@ -233,12 +233,10 @@ Thank you on smaller screens
  
 ![Thank you small](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bb34f48a-1f71-4db7-8a67-613267fd8fa0)
 
-### Future Features
-
- - As we strive to enhance the website's functionality and user experience, it would be considered for future features:
-
-    -Bilingual Support: Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
-    -Streamlined Offer Purchase: To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
+## Future Features
+  - As we strive to enhance the website's functionality and user experience, it would be considered for future features:
+    1. Bilingual Support: Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
+    2. Streamlined Offer Purchase: To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
 
 ## Technologies Used:
 
