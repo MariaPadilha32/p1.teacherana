@@ -18,12 +18,12 @@ https://github.com/MariaPadilha32/p1.teacherana
 
 ### When I use the website:
 
-  - I want an website that I am able to navigate easily.
+  - I want a website that I am able to navigate easily.
   - I want the website to be visually appealing and make me feel confident about hiring the mentor.
   - I want to see how my own story and career goals connect with what is on the website.
   - I want to learn more about teacher Ana and easily find her social media.
   - I want to know the details about the different services I can choose from, based on what I need.
-  - I want to be able to send questions, comments or feedbacks.
+  - I want to be able to send questions, comments or feedback.
 
   ### Initial concept
   
@@ -55,7 +55,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 
 ### Imagery
 
-  The images are carefully chosen to make the used connect to teacher Ana. They are beautiful images that teacher Ana already used on her social medias.
+  The images are carefully chosen to make the used connect to teacher Ana. They are beautiful images that teacher Ana already used on her social media.
 
   Detailed alt attribute is included for each image to describe the image. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
@@ -76,7 +76,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 
 ## Features 
 
-  In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. The website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information o each page:
+  In this dynamic website project, we introduce you to Teacher Ana, an educator with over a decade of teaching experience. The website is designed to uplift fellow teachers by offering proven strategies to enhance their careers while minimizing their workload. The following is a more detailed information of each page:
 
 - Main page: On the first page, you'll first learn how Teacher Ana can help you improve your business, followed by a concise introduction to who is Ana. The page also features heartfelt testimonials from teachers who have been mentored by her, giving you a glimpse into the positive impact she has on fellow educators. 
 - About Me: The second page provides a more in-depth insight into the identity of Teacher Ana, her motivations for innovating her teaching methods, and the reasons for creating the VHS method.
@@ -84,7 +84,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 - Contact: Utilizing a straightforward form, users can furnish essential information while also having the opportunity to share their comments or questions. Rest assured, your inquiries will be promptly addressed to provide you with the answers you seek.
 - Thank you: Once the form is submited the user will have a friendly message that assure the user they will be contacted soon.
 
-All pages have offers an easy access to social medias.
+All pages have offers an easy access to social media.
 
 ### Existing Features
 
@@ -102,7 +102,7 @@ All pages have offers an easy access to social medias.
 
 - __The Hero Image__
 
-  - The landing page, about me page, and offer page features a customized image crafted through Canvas, tailored to the client's preferences. The images serves as a versatile asset that can be utilized across her various social media platforms. It incorporates colors, fonts, and intricate details that align with her brand identity.
+  - The landing page, about me page, and offer page features a customized image crafted through Canva, tailored to the client's preferences. The images serve as a versatile asset that can be utilized across her various social media platforms. It incorporates colors, fonts, and intricate details that align with her brand identity.
   -  It's made extra interesting with a special zooming effect that quickly grabs your attention (for screens equal or bigger than 800px).
   
    Index.html Screens equal or bigger than 801px
@@ -179,7 +179,7 @@ All pages have offers an easy access to social medias.
 - __About Me__
   
   - "About me" is a section where you can learn more about the journey that has led to the creation of the "Teacher Ana de Araujo" brand.
-  - This page is divided into five paragraphs and four pictures, each accompanied by relevant images that visually supplement the story.s. 
+  - This page is divided into five paragraphs and four pictures, each accompanied by relevant images that visually supplement the storys. 
   - The conclusion invites the reader with a direct link provided that guide the users to explore the comprehensive range of offerings on the dedicated "Offer" page.
 
   About Me on bigger screens
@@ -257,7 +257,7 @@ As we strive to enhance the website's functionality and user experience, it woul
 - [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 - The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
 - The website uses icons from [Font Awesome](https://fontawesome.com/).
-- The images were created used [Canvas](https://www.canva.com/en_gb/).
+- The images were created used [Canva](https://www.canva.com/en_gb/).
 - The text was reviewed using [ChatGPT](https://chat.openai.com/)
 
 ## Testing 
@@ -317,7 +317,7 @@ As we strive to enhance the website's functionality and user experience, it woul
    - Lighthouse
 The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
 
-The test were perfomed for an screen size of a Mobile and Desktop.
+The tests were perfomed for an screen size of a Mobile and Desktop.
 
 Index.html
 ![Captura de tela 2023-08-22 190541](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/296af346-a706-4fdf-b290-394593d1f0aa)
@@ -341,21 +341,21 @@ Thankyou.html
 
 ### User stories
 
-- The mentor adviced to make small changes on "About me" 1) on big screens used adivced to increase the padding on <p> to make more user friendly 2) on small screens to move the text from center aligned to the left.
+- The mentor advised to make small changes on "About me" 1) on big screens used adivced to increase the padding on <p> to make more user friendly 2) on small screens to move the text from center aligned to the left.
     Before
 ![Captura de tela 2023-08-21 171544](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fa0e48e3-7171-4770-bedc-3a108e9eb381)
 
     After
   ![Captura de tela 2023-08-21 233813](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/506fb9bd-c2c3-44ee-8203-11d829368c2d)
 
-- The mentor also adviced to include a max-height and max width on the images on "about me" so it would fit a small screen better
+- The mentor also advised to include a max-height and max width on the images on "about me" so it would fit a small screen better
     Before
 ![Captura de tela 2023-08-21 171628](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2b5d6477-9da0-4f1a-8811-e4cd82387852)
 
     After
 ![Captura de tela 2023-08-22 201939](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c5063704-03b1-4dd3-a537-bc20141d46b9)
 
-- User adviced to change hhow the offer looks on small screens:
+- User advised to change hhow the offer looks on small screens:
   Before 
 ![2dca5d63-1670-44ec-9e8f-2646c50e230f](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d141a695-a44a-4f01-9fd4-5414afcadf29)
 
@@ -404,7 +404,7 @@ __Creating a Local Clone__
 ### Media
 
 - The photos used were provided by Teacher Ana.
-- The images used for the hero images were created on Canvas.
+- The images used for the hero images were created on Canva.
 
 ### Codes
 
