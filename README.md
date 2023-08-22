@@ -236,6 +236,7 @@ Thank you on smaller screens
 ### Future Features
 
 As we strive to enhance the website's functionality and user experience, it would be considered for future features:
+
     -Bilingual Support: Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
     -Streamlined Offer Purchase: To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
 
@@ -257,13 +258,13 @@ As we strive to enhance the website's functionality and user experience, it woul
 ## Testing 
 
 ### Browser Compatibility
-  Appearance, functionality and responsiveness of the website were tested with the following browsers:
-   - Google Chrome
-   - Safari
-   - Microsoft Edge
-   - Mozilla Firefox
+ - Appearance, functionality and responsiveness of the website were tested with the following browsers:
+     - Google Chrome
+     - Safari
+     - Microsoft Edge
+     - Mozilla Firefox
 
-    As part of this testing, the following were tested and no issues were found:
+ - As part of this testing, the following were tested and no issues were found:
 
     - All internal links function as expected
     - All external links function as expected and they open in new tabs
