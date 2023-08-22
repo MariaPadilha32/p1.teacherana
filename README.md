@@ -66,6 +66,7 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 - #fffaeb (Peach): This color is a warm and soft shade of orange. It often evokes feelings of warmth, comfort, and friendliness. Peach can also bring to mind feelings of innocence and sweetness, making it a soothing and inviting color.
 - #3e4c33 (Dark Green):  Dark green is linked with nature, progress, and steadiness. It has the ability to provide a person with a sense of being grounded, tranquil, and in touch with the outdoors. It frequently communicates feelings of equilibrium and agreement, and can have a soothing effect when observed.
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
+  
 ![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
 ![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/b256a5e4-c375-43f3-abaa-d5b4557c9cf)
 ![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
@@ -263,21 +264,108 @@ As we strive to enhance the website's functionality and user experience, it woul
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Browser Compatibility
+  Appearance, functionality and responsiveness of the website were tested with the following browsers:
+   - Google Chrome
+   - Safari
+   - Microsoft Edge
+   - Mozilla Firefox
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    As part of this testing, the following were tested and no issues were found:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+    - All internal links function as expected
+    - All external links function as expected and they open in new tabs
+    - All features function as expected
+    - The form inputs validated - requeired fields are marked by *.
+    - Responsiveness to different screen sizes - images, quotes, font sizes, margins, and overall spacing
+    - The website was also manually tested on iPhone 11, iPhone 11, Samsung Galaxy Note 10, Ipad, Yoga Slim7i and on a 23" screen.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  ### Responsiveness
+  Responsiveness design tests were executed using Chrome Dev Tools and no issues were found. This included the following devices:
+
+  - iPhone SE, XR, 12 Pro
+  - iPad Air and iPad Mini
+  - Pixel 5
+  - Samsung Galaxy S8+, S20 Ultra, Galaxy fold, A51/71
+  - Microsoft Surface Pro 7 and Duo
+  - Nest Hub and Hub Max
+  - Facebook for Android v407 on Pixel 6
+
+  ### Code Validation
+    We thoroughly validated the website to eliminate any syntax errors. The official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F) and [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) were employed for this validation process, and any identified errors were promptly addressed and corrected.
+
+     Validation result for index.html
+  ![index html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/66d7fee4-ce90-44f7-8092-895b8bf2fb7e)
 
 
-### Validator Testing 
+  Validation result for about.html
+  ![about html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/7cd34f9f-5b06-471d-a9f6-9f6e5490b30e)
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+  Validation result for offer.html
+  ![offer html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/77b6ff82-bec5-4eee-b1e4-44f20336f5cf)
+
+
+  Validation result for contact.html
+  ![contact html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c409857b-64d8-4bad-a51e-48a0a326b5b6)
+
+
+  Validation result for thankyou.html  
+  ![Thank you testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/3ae055cc-e1ad-41a6-adaf-02379a653057)
+
+  Valitadion result for style.css
+![CSS testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1f2748fc-55ff-4468-ab26-3016f52bc426)
+
+   - Lighthouse
+The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
+
+The test were perfomed for an screen size of a Mobile and Desktop.
+
+Index.html
+![Captura de tela 2023-08-22 190541](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/296af346-a706-4fdf-b290-394593d1f0aa)
+![Captura de tela 2023-08-22 191649](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6c4967d6-3431-432a-85cf-6d69fda0b65a)
+
+About.html
+![Captura de tela 2023-08-22 193044](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/4cfe5277-bbb3-43ba-b41d-02164d8e1044)
+![Captura de tela 2023-08-22 193116](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/60f87890-91b8-4e12-bba8-5d75f39935c2)
+
+Offer.html
+![Captura de tela 2023-08-22 193232](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/14f53047-b5db-40b9-9973-4eb86409f6cc)
+![Captura de tela 2023-08-22 193154](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fe7c9363-08cd-4565-a5d9-e6e4ea2b68ef)
+
+Contact.html
+![Captura de tela 2023-08-22 193311](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/8e5458b8-92f6-437d-9fed-3736f0ce20e0)
+![Captura de tela 2023-08-22 193356](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6b406868-da75-4cad-bc86-8f79fc744b11)
+
+Thankyou.html
+![Captura de tela 2023-08-22 193453](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e1e1652b-8928-4b41-b621-bfa9d5223d33)
+![Captura de tela 2023-08-22 193425](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c1ce943a-feb5-46a6-bf34-076f127cc42b)
+
+### User stories
+
+- The mentor adviced to make small changes on "About me" 1) on big screens used adivced to increase the padding on <p> to make more user friendly 2) on small screens to move the text from center aligned to the left.
+    Before
+![Captura de tela 2023-08-21 171544](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fa0e48e3-7171-4770-bedc-3a108e9eb381)
+
+    After
+  ![Captura de tela 2023-08-21 233813](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/506fb9bd-c2c3-44ee-8203-11d829368c2d)
+
+- The mentor also adviced to include a max-height and max width on the images on "about me" so it would fit a small screen better
+    Before
+![Captura de tela 2023-08-21 171628](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2b5d6477-9da0-4f1a-8811-e4cd82387852)
+
+    After
+![Captura de tela 2023-08-22 201939](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c5063704-03b1-4dd3-a537-bc20141d46b9)
+
+  
+- User adviced to change hhow the offer looks on small screens:
+  Before 
+![2dca5d63-1670-44ec-9e8f-2646c50e230f](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d141a695-a44a-4f01-9fd4-5414afcadf29)
+
+  After
+![08a527d1-96a5-4c88-ad28-2e4058804ca0](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a548d643-0ad4-4d55-b783-b1fef10398f5)
+
+  
 
 ### Unfixed Bugs
 
@@ -315,6 +403,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
 
 ### Media
 
