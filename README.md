@@ -235,7 +235,7 @@ Thank you on smaller screens
 
 ### Future Features
 
-As we strive to enhance the website's functionality and user experience, it would be considered for future features:
+ - As we strive to enhance the website's functionality and user experience, it would be considered for future features:
 
     -Bilingual Support: Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
     -Streamlined Offer Purchase: To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
@@ -352,8 +352,6 @@ Thankyou.html
 
   After
 ![screenshot after](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a548d643-0ad4-4d55-b783-b1fef10398f5)
-
-  
 
 ### Unfixed Bugs and Known Issues
 
