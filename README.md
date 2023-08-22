@@ -4,7 +4,7 @@
 
  The website is targeted to teachers that feel the need to improve their career while working less hours, Teacher Ana's website stands as a beacon of support. Through her very active social media, she has already touched the lives of thousands by offering invaluable tips for improvement. Now, Ana extends a roadmap for fellow teachers to achieve the same balance. Join her journey in transforming your teaching career into a thriving business. Together, we'll change the lives of educators and students, one empowered step at a time.
 
-![Captura de tela 2023-08-20 194041](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
+![Responsive](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2ab4e773-c925-4c1c-9714-cbbb6ba40859)
 
 ## Live Website
 
@@ -37,19 +37,19 @@ https://github.com/MariaPadilha32/p1.teacherana
 
   Index.html
   
-![Captura de tela 2023-08-20 200351](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/819f330a-58a0-47ab-b5d5-224ca9bd408e)
+![Index.html](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/819f330a-58a0-47ab-b5d5-224ca9bd408e)
 
  About.html
  
- ![Captura de tela 2023-08-20 200704](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/03499ba7-8dc7-4171-acd7-0ef55378ba28)
+ ![About.html](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/03499ba7-8dc7-4171-acd7-0ef55378ba28)
 
 Offer.html
 
-![Captura de tela 2023-08-20 200730](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/67269948-0f75-4094-a97d-bce241dd9330)
+![Offer.html](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/67269948-0f75-4094-a97d-bce241dd9330)
 
 Contact.html
 
-![Captura de tela 2023-08-20 200749](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/31e3dc7d-84bc-4b1f-8926-15e84ed34f14)
+![Contact.html](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/31e3dc7d-84bc-4b1f-8926-15e84ed34f14)
 
 Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank you message.
 
@@ -67,9 +67,9 @@ Thankyou.html: No Wireframe was createtd for this page as it shows only a Thank 
 - #3e4c33 (Dark Green):  Dark green is linked with nature, progress, and steadiness. It has the ability to provide a person with a sense of being grounded, tranquil, and in touch with the outdoors. It frequently communicates feelings of equilibrium and agreement, and can have a soothing effect when observed.
 - #a22d59 (Deep Rose): Deep rose is a rich and vibrant shade of pink. It can evoke feelings of passion, romance, and excitement. This color might make a person feel energetic, enthusiastic, and perhaps even a little playful.
   
-![Captura de tela 2023-08-21 231801](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
-![Captura de tela 2023-08-21 231708](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bc749157-92af-4936-b191-d2e7cf09f4ad)
-![Captura de tela 2023-08-21 231738](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
+![Peach](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/17a0875c-2262-48b6-bf6a-2438db1b1ed3)
+![Pink](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bc749157-92af-4936-b191-d2e7cf09f4ad)
+![Green](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c75cb2dd-2989-48f3-bd9d-550dea6b2436)
 
 ### Typographia
   The used fonts, 'Montserrat, sans-serif;' were carefully chosen by Ana in alignment with her well-established brand. These fonts not only contribute to the brand's visual identity but also prioritize ease of readability and comprehension, ensuring that the content is easily accessible and user-friendly.
@@ -184,13 +184,15 @@ All pages have offers an easy access to social media.
 
   About Me on bigger screens
   
-![ABout me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6e9a3b6f-d3d2-47d6-ae46-02fa4871926a)
+![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/75083eea-bd5d-4870-b7f0-e5291d42d6c9)
+
 
   About me on smaller screens
 
-![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d151ac54-0b01-47fd-9100-a71433748378)
+![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/832f2ef1-c924-4d9c-9854-72f4d982e780)
 
--__Offer__
+
+- __Offer__
 
  - This section contains three different type of offer that will fulfill the user needs.
  - Every offer is thoroughly detailed, providing all necessary information.
@@ -198,14 +200,13 @@ All pages have offers an easy access to social media.
  
  Offer on bigger screens
  
-![Captura de tela 2023-08-21 233912](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d6a66c0e-0c3c-4ee1-a68b-bc533b79b20a)
+![Offer big](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d6a66c0e-0c3c-4ee1-a68b-bc533b79b20a)
 
 
  Offer on smaller screens
  
-![Captura de tela 2023-08-21 233942](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d820474c-f7ed-44e3-9860-df5a67d8117f)
-![Captura de tela 2023-08-21 234000](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/52345a68-e032-45a6-8632-813392f94673)
-
+![Offer small](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d820474c-f7ed-44e3-9860-df5a67d8117f)
+![Offer small](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/52345a68-e032-45a6-8632-813392f94673)
 
 - __Contact me__
 
@@ -215,25 +216,24 @@ All pages have offers an easy access to social media.
 
  Contact on bigger screens
  
-![Captura de tela 2023-08-21 235355](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e4732a86-4d1f-4843-8619-623a1bc3eaca)
+![Contact me big](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e4732a86-4d1f-4843-8619-623a1bc3eaca)
 
  Contact on smaller screens
 
- ![Captura de tela 2023-08-21 235328](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/9be606b5-bc9c-4245-9425-99424a338237)
+ ![Contact me small](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/9be606b5-bc9c-4245-9425-99424a338237)
 
-
- -__Thank you__
+- __Thank you__
 
 - The thank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
 - This page efficiently acknowledges users' messages, ensuring they are aware of the reception and anticipating forthcoming communication.
 
 Thank you on bigger screens
 
-![Captura de tela 2023-08-21 235551](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1c605a5b-67c0-4d14-b0fc-73ddadc55c15)
+![Thank you big](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/1c605a5b-67c0-4d14-b0fc-73ddadc55c15)
 
 Thank you on smaller screens
  
-![Captura de tela 2023-08-21 235602](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bb34f48a-1f71-4db7-8a67-613267fd8fa0)
+![Thank you small](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/bb34f48a-1f71-4db7-8a67-613267fd8fa0)
 
 ### Future Features
 
@@ -295,18 +295,14 @@ As we strive to enhance the website's functionality and user experience, it woul
      Validation result for index.html
   ![index html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/66d7fee4-ce90-44f7-8092-895b8bf2fb7e)
 
-
   Validation result for about.html
   ![about html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/7cd34f9f-5b06-471d-a9f6-9f6e5490b30e)
-
 
   Validation result for offer.html
   ![offer html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/77b6ff82-bec5-4eee-b1e4-44f20336f5cf)
 
-
   Validation result for contact.html
   ![contact html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c409857b-64d8-4bad-a51e-48a0a326b5b6)
-
 
   Validation result for thankyou.html  
   ![Thank you testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/3ae055cc-e1ad-41a6-adaf-02379a653057)
@@ -320,47 +316,47 @@ The website was tested with Lighthouse in the Dev Tools for performance, accessi
 The tests were perfomed for an screen size of a Mobile and Desktop.
 
 Index.html
-![Captura de tela 2023-08-22 190541](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/296af346-a706-4fdf-b290-394593d1f0aa)
-![Captura de tela 2023-08-22 191649](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6c4967d6-3431-432a-85cf-6d69fda0b65a)
+![Lighhthouse Index](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/296af346-a706-4fdf-b290-394593d1f0aa)
+![Lighhthouse Index](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6c4967d6-3431-432a-85cf-6d69fda0b65a)
 
 About.html
-![Captura de tela 2023-08-22 193044](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/4cfe5277-bbb3-43ba-b41d-02164d8e1044)
-![Captura de tela 2023-08-22 193116](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/60f87890-91b8-4e12-bba8-5d75f39935c2)
+![Lighhthouse About](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/4cfe5277-bbb3-43ba-b41d-02164d8e1044)
+![Lighhthouse About](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/60f87890-91b8-4e12-bba8-5d75f39935c2)
 
 Offer.html
-![Captura de tela 2023-08-22 193232](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/14f53047-b5db-40b9-9973-4eb86409f6cc)
-![Captura de tela 2023-08-22 193154](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fe7c9363-08cd-4565-a5d9-e6e4ea2b68ef)
+![Lighhthouse Offer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/14f53047-b5db-40b9-9973-4eb86409f6cc)
+![Lighhthouse Offer](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fe7c9363-08cd-4565-a5d9-e6e4ea2b68ef)
 
 Contact.html
-![Captura de tela 2023-08-22 193311](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/8e5458b8-92f6-437d-9fed-3736f0ce20e0)
-![Captura de tela 2023-08-22 193356](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6b406868-da75-4cad-bc86-8f79fc744b11)
+![Lighhthouse Contact](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/8e5458b8-92f6-437d-9fed-3736f0ce20e0)
+![Lighhthouse Contact](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/6b406868-da75-4cad-bc86-8f79fc744b11)
 
 Thankyou.html
-![Captura de tela 2023-08-22 193453](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e1e1652b-8928-4b41-b621-bfa9d5223d33)
-![Captura de tela 2023-08-22 193425](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c1ce943a-feb5-46a6-bf34-076f127cc42b)
+![Lighhthouse Thank you](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/e1e1652b-8928-4b41-b621-bfa9d5223d33)
+![Lighhthouse Thank you](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c1ce943a-feb5-46a6-bf34-076f127cc42b)
 
 ### User stories
 
 - The mentor advised to make small changes on "About me" 1) on big screens used adivced to increase the padding on <p> to make more user friendly 2) on small screens to move the text from center aligned to the left.
     Before
-![Captura de tela 2023-08-21 171544](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fa0e48e3-7171-4770-bedc-3a108e9eb381)
+![screenshot](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/fa0e48e3-7171-4770-bedc-3a108e9eb381)
 
     After
-  ![Captura de tela 2023-08-21 233813](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/506fb9bd-c2c3-44ee-8203-11d829368c2d)
+  ![screenshot after](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/506fb9bd-c2c3-44ee-8203-11d829368c2d)
 
 - The mentor also advised to include a max-height and max width on the images on "about me" so it would fit a small screen better
     Before
-![Captura de tela 2023-08-21 171628](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2b5d6477-9da0-4f1a-8811-e4cd82387852)
+![screenshot](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/2b5d6477-9da0-4f1a-8811-e4cd82387852)
 
     After
-![Captura de tela 2023-08-22 201939](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c5063704-03b1-4dd3-a537-bc20141d46b9)
+![screenshot after](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c5063704-03b1-4dd3-a537-bc20141d46b9)
 
 - User advised to change hhow the offer looks on small screens:
   Before 
-![2dca5d63-1670-44ec-9e8f-2646c50e230f](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d141a695-a44a-4f01-9fd4-5414afcadf29)
+![screenshot](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d141a695-a44a-4f01-9fd4-5414afcadf29)
 
   After
-![08a527d1-96a5-4c88-ad28-2e4058804ca0](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a548d643-0ad4-4d55-b783-b1fef10398f5)
+![screenshot after](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/a548d643-0ad4-4d55-b783-b1fef10398f5)
 
   
 
@@ -414,21 +410,14 @@ __Creating a Local Clone__
 
 ### Special Thanks
 
-- I would like to extend my gratitude to Teacher Ana, besides 
+- I would like to extend my heartfelt gratitude to Teacher Ana, who serves as a professional inspiration and is consistently dedicated to achieving the highest standards of quality and improvement. Her unwavering support played a crucial role in enabling me to complete the visual aspects of the website. Additionally, I am thankful for her valuable insights and feedback throughout the development process.
 
-## Other General Project Advice
+- Special thanks are also due to my classmates on Slack, who have consistently provided their support, assistance, and valuable feedback. Their collective spirit of collaboration has been invaluable.
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+- Furthermore, I extend a sincere thank you to my mentor[Harry Dhillon](https://github.com/Harry-Leepz), whose guidance has been incredibly helpful during moments of significant challenge. Your support has been instrumental in navigating complex aspects of the project.
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
+## Acknowledgements
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+This portfolio project was crafted as part of the Full Stack Software Development course at Code Institute. My sincere thanks go to my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for his invaluable guidance and encouragement. His feedback and advice have greatly improved the project's usability and overall user experience.
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+I also extend my appreciation to Iris Smok at Code Institute for patiently addressing questions during the weekly meetings and contributing to a richer learning experience.
