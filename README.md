@@ -285,7 +285,7 @@ As we strive to enhance the website's functionality and user experience, it woul
   - Facebook for Android v407 on Pixel 6
 
   ### Code Validation
-    We thoroughly validated the website to eliminate any syntax errors. The official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F) and [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) were employed for this validation process, and any identified errors were promptly addressed and corrected.
+   - We thoroughly validated the website to eliminate any syntax errors. The official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F) and [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariapadilha32.github.io%2Fp1.teacherana%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) were employed for this validation process, and any identified errors were promptly addressed and corrected.
 
      Validation result for index.html
   ![index html testing](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/66d7fee4-ce90-44f7-8092-895b8bf2fb7e)
