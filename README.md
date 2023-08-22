@@ -184,13 +184,11 @@ All pages have offers an easy access to social media.
 
   About Me on bigger screens
   
-![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/75083eea-bd5d-4870-b7f0-e5291d42d6c9)
-
+![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/3189e78a-4c8f-4060-9d75-a845532ab815)
 
   About me on smaller screens
 
-![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/832f2ef1-c924-4d9c-9854-72f4d982e780)
-
+![About me](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/0ce06631-bb25-4092-bac7-a311cf453272)
 
 - __Offer__
 
@@ -367,6 +365,8 @@ Thankyou.html
 - Navigation Bar Layout: One of the most prominent unresolved issues involves the navigation bar's responsive layout. While the ideal implementation was to shift the navigation bar to the left side and relocate the logo to the right side on smaller screens, I encountered challenges in achieving this behavior. Consequently, as a temporary solution, I have temporarily removed the logo from the navigation bar. I will continue to explore options to address this layout inconsistency and improve the user interface.
 
 - "Commit Changes" Without Comments: An identified known issue pertains to the lack of comments when making commits to the repository's readme.md file. This happened due to an oversight and a lack of awareness regarding the importance of providing meaningful comments during commits. Although I rectified this issue in later commits, it is acknowledged that prior commits do not include comprehensive comments. Going forward, I am committed to maintaining clear and informative commit messages to facilitate transparency and collaboration.
+
+- Wireframes were created on a meeting in Portuguese, some words on the page are in Portuguese.
 
 ## Deployment
 
