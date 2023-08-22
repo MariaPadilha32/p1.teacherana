@@ -357,7 +357,6 @@ Thankyou.html
     After
 ![Captura de tela 2023-08-22 201939](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/c5063704-03b1-4dd3-a537-bc20141d46b9)
 
-  
 - User adviced to change hhow the offer looks on small screens:
   Before 
 ![2dca5d63-1670-44ec-9e8f-2646c50e230f](https://github.com/MariaPadilha32/p1.teacherana/assets/137770409/d141a695-a44a-4f01-9fd4-5414afcadf29)
