@@ -192,9 +192,9 @@ All pages have offers an easy access to social media.
 
 - __Offer__
 
- - This section contains three different type of offer that will fulfill the user needs.
- - Every offer is thoroughly detailed, providing all necessary information.
- - All offers contains a link that will bring the uset to "Contact" page so they can message Teacher Ana and learn more about what they are interested on.
+   - This section contains three different type of offer that will fulfill the user needs.
+   - Every offer is thoroughly detailed, providing all necessary information.
+   - All offers contains a link that will bring the uset to "Contact" page so they can message Teacher Ana and learn more about what they are interested on.
  
  Offer on bigger screens
  
@@ -208,9 +208,9 @@ All pages have offers an easy access to social media.
 
 - __Contact me__
 
- - The Contact page provides a straightforward and user-friendly form for individuals to connect with Teacher Ana.
- - The form captures essential information, including mandatory fields such as name, email, and message.
- - The interface ensures ease of understanding and seamless interaction.
+   - The Contact page provides a straightforward and user-friendly form for individuals to connect with Teacher Ana.
+   - The form captures essential information, including mandatory fields such as name, email, and message.
+   - The interface ensures ease of understanding and seamless interaction.
 
  Contact on bigger screens
  
@@ -222,8 +222,8 @@ All pages have offers an easy access to social media.
 
 - __Thank you__
 
-- The thank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
-- This page efficiently acknowledges users' messages, ensuring they are aware of the reception and anticipating forthcoming communication.
+  - The thank you Page serves as a succinct response platform. After users send messages to the website owner, they receive assurance of their communication and are informed about an imminent response.
+  - This page efficiently acknowledges users' messages, ensuring they are aware of the reception and anticipating forthcoming communication.
 
 Thank you on bigger screens
 
@@ -236,12 +236,8 @@ Thank you on smaller screens
 ### Future Features
 
 As we strive to enhance the website's functionality and user experience, it would be considered for future features:
-
-    -Bilingual Support
-      Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
-
-    -Streamlined Offer Purchase
-      To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
+    -Bilingual Support: Recognizing the diverse audience, the plan includes making the website bilingual. This enhancement will cater the predominantly Brazilian clientele, offering content in both Portuguese and English. By seamlessly switching between languages, we aim to provide a more personalized experience to a wider range of users.
+    -Streamlined Offer Purchase: To further improve user convenience, the idea of an integrated purchase option. This feature will empower users to seamlessly purchase the program offered directly from the website. 
 
 ## Technologies Used:
 
